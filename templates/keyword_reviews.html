@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyword Reviews</title>
+</head>
+<body>
+
+{% if keyword_reviews %}
+    <h1>Keyword Reviews for '{{ keyword }}'</h1>
+    <ul>
+        {% for college, reviews in keyword_reviews.items() %}
+            <li>
+                <h2>{{ college }}</h2>
+                <ul>
+                    {% for review in reviews %}
+                        <li>{{ review }}</li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No reviews found for '{{ keyword }}'.</p>
+{% endif %}
+
+</body>
+</html>

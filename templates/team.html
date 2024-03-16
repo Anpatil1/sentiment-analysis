@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="path-to-your-favicon.ico" type="image/x-icon">
+    <title>Our Team</title>
+    <!-- Add Bootstrap CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(to right, #667eea, #764ba2);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar {
+            background: linear-gradient(to right, #343a40, #007bff);
+            height: 70px;
+            border-bottom: 2px solid #fff;
+        }
+
+        .navbar-toggler {
+            background-color: #007bff;
+        }
+
+        .navbar-toggler-icon {
+            cursor: pointer;
+        }
+
+        .navbar-toggler-icon::before,
+        .navbar-toggler-icon::after {
+            content: '\00a0';
+            display: block;
+            height: 2px;
+            width: 30px;
+            background-color: #fff;
+            margin: 6px 0;
+        }
+
+        .navbar-collapse {
+            display: none;
+        }
+
+        .navbar-collapse.show {
+            display: flex;
+            background-color: #343a40;
+            padding: 15px;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .navbar-brand,
+        .navbar-nav .nav-link {
+            color: #fff !important;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ffc107 !important;
+        }
+
+        .team-container {
+            flex: 1;
+            max-width: 800px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            background-color: rgba(255, 255, 255, 0.9);
+            margin-top: 50px;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+        .team-member {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .team-member img {
+            border-radius: 50%;
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .team-member h3 {
+            color: #764ba2;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .team-member p {
+            color: #495057;
+            font-size: 1.2rem;
+            margin: 0;
+        }
+
+        .footer {
+            background: linear-gradient(to right, #343a40, #007bff);
+            color: #fff;
+            padding: 30px 0;
+            margin-top: auto;
+            width: 100%;
+            border-top: 2px solid #fff;
+            text-align: center;
+        }
+
+        .footer a {
+            color: #fff;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: #ddd;
+        }
+
+        .social-icons a {
+            color: #fff;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+
+        .social-icons a:hover {
+            color: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Our Team</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/overview">Overview</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/feedback">Feedback</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+       </div>
+          </nav>
+
+    <div class="team-container">
+        <div class="team-member">
+            <img src="path-to-your-image.jpg" alt="Team Member 1">
+            <h3>Team Member 1</h3>
+            <p>Position/Role</p>
+        </div>
+
+        <div class="team-member">
+            <img src="path-to-your-image.jpg" alt="Team Member 2">
+            <h3>Team Member 2</h3>
+            <p>Position/Role</p>
+        </div>
+
+        <!-- Add more team members as needed -->
+
+    </div>
+
+    <footer class="footer">
+            <div class="container text-center">
+            <p>&copy; 2023 Engineering College Sentiment Analysis</p>
+            <p class="social-icons">
+                Follow us on social media:
+                <a href="https://twitter.com" class="fab fa-twitter"></a>
+                <a href="https://www.facebook.com" class="fab fa-facebook-f"></a>
+                <a href="https://www.linkedin.com" class="fab fa-linkedin-in"></a>
+                <a href="https://www.instagram.com/anpatil2621" class="fab fa-instagram"></a>
+                <a href="https://github.com/Anpatil1" class="fab fa-github"></a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0Y9QKFEsf6bpczh+j13IMq5GrBsq8U4ETk8ZLIFn+8WiGhF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-Dp04CE0txz1L5FqnBNT9VZRvZF4CQDd3K4cK8eNCtuGxQZAnFaFQ8Wr26q0aLhE2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-eANqzgE+AIpCe/N0GOzIeAAmw5nW2r+fzI1aFjST13AjVpUttvfOOl3Yb1X4tMz" crossorigin="anonymous"></script>
+</body>
+
+</html>

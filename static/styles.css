@@ -1,0 +1,92 @@
+/* Add custom styles */
+body {background: url("static/sharp_purple.png") center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,.display-4 {
+    color: #343a40;
+    font-size: 2.5rem; /* Adjust the font size as needed */
+}
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+footer {
+    background-color: #343a40;
+    color: #304146;
+    padding: 20px 0;
+    width: 100%;
+}
+
+footer a {
+    color: #dee2e6;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.fab {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #dee2e6;
+}
+
+.mt-5 {
+    margin-top: 50px;
+}
+/* Adjust icon size */
+        footer img {
+            width: 30px; /* Adjust the width as needed */
+            height: auto; /* Maintain the aspect ratio */
+            margin-right: 10px; /* Add some spacing between icons */
+        }
+        /* Add this to your CSS file */
+.flash-messages {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.flash-messages li {
+    margin-bottom: 5px;
+    padding: 8px;
+}
+
+.flash-messages.error {
+    background-color: #FFD2D2;
+    color: #D8000C;
+}
+
+.flash-messages.success {
+    background-color: #DFF2BF;
+    color: #4F8A10;
+}

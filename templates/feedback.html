@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" href="path/to/your/favicon.ico" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #007BFF, #00BFFF);
+            margin: 0;
+            padding: 0;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            align-items: center;
+        }
+
+        #feedbackCard {
+            width: 400px;
+            background: #3498db;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+
+            margin-top: 50px;
+        }
+
+        h2 {
+            color: #ffffff;
+            font-size: 24px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        input,
+        textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ffffff;
+            border-radius: 4px;
+            transition: border-color 0.3s;
+            background-color: #3498db;
+            color: #ffffff;
+        }
+
+        input:focus,
+        textarea:focus {
+            border-color: #ffffff;
+        }
+
+        .error-message {
+            color: #dc3545;
+            font-size: 14px;
+            margin-top: -10px;
+            margin-bottom: 10px;
+        }
+
+        #backBtn,
+        #submitFeedbackBtn {
+            background-color: #ffffff;
+            color: #3498db;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+            margin-top: 10px; /* Add margin to the top of the buttons */
+        }
+
+        #backBtn:hover,
+        #submitFeedbackBtn:hover {
+            background-color: #4caf50;
+            color: #ffffff;
+        }
+
+        #backBtn {
+            margin-right: 10px;
+        }
+
+        .footer {
+            background: linear-gradient(to bottom, #000000, #333333);
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+            margin-top: auto;
+            width: 100%;
+            border-top: 1px solid #fff;
+        }
+
+        .fab {
+            font-size: 24px;
+            margin-right: 10px;
+            color: #fff;
+        }
+
+         .social-icons a {
+         color: #fff;
+         margin-right: 10px;
+         transition: color 0.3s; /* Add a transition for a smooth color change */
+         }
+
+        .social-icons a:hover {
+            color: #FFC000;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="feedbackCard">
+        <h2>Feedback Form</h2>
+        <form id="form" method="post" action="/submit_feedback">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error-message" id="email-error"></span>
+
+            <label for="rating">Rating (1-5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" step="1" required>
+            <span class="error-message" id="rating-error"></span>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" required></textarea>
+
+            <button type="button" id="backBtn" onclick="history.back()">Back</button>
+            <button type="button" id="submitFeedbackBtn">Submit Feedback</button>
+        </form>
+    </div>
+
+    <footer class="footer py-4">
+        <div class="container text-center">
+            <p>&copy; 2023 Engineering College Sentiment Analysis</p>
+            <p>Follow us on social media:
+                <a href="https://twitter.com" class="fab fa-twitter" target="_blank"></a>
+                <a href="https://www.facebook.com" class="fab fa-facebook-f" target="_blank"></a>
+                <a href="https://www.linkedin.com" class="fab fa-linkedin-in" target="_blank"></a>
+                <a href="https://www.instagram.com/anpatil2621" class="fab fa-instagram" target="_blank"></a>
+                <a href="https://github.com/Anpatil1" class="fab fa-github" target="_blank"></a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        document.getElementById('submitFeedbackBtn').addEventListener('click', function () {
+            document.getElementById('email-error').textContent = '';
+            document.getElementById('rating-error').textContent = '';
+
+            var email = document.getElementById('email').value;
+            var rating = document.getElementById('rating').value;
+
+            if (!isValidEmail(email)) {
+                document.getElementById('email-error').textContent = 'Please enter a valid email address.';
+                return;
+            }
+
+            if (!isValidRating(rating)) {
+                document.getElementById('rating-error').textContent = 'Please enter a valid rating between 1 and 5.';
+                return;
+            }
+
+            var formData = new FormData(document.getElementById('form'));
+
+            var jsonData = {};
+            formData.forEach(function (value, key) {
+                jsonData[key] = value;
+            });
+
+            fetch("/submit_feedback", {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(jsonData)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    Swal.fire({
+                        title: data.title,
+                        text: data.text,
+                        icon: data.icon,
+                        showConfirmButton: false,
+                        timer: 2000
+                    });
+                    document.getElementById('form').reset();
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                });
+        });
+
+        function isValidEmail(email) {
+            var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+
+        function isValidRating(rating) {
+            return !isNaN(parseFloat(rating)) && isFinite(rating) && rating >= 1 && rating <= 5;
+        }
+    </script>
+</body>
+
+</html>
