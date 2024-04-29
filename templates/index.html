@@ -10,28 +10,82 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
-    <!-- Add the link to your favicon -->
+     <!-- Add the link to your favicon -->
     <link rel="icon" href="{{ url_for('static', filename='logo.png') }}" type="image/png">
 
 
     <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            min-height: 100vh;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            color: #333;
-        }
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 100px;
+    /* Set initial gradient background */
+    background: linear-gradient(to right, #FFA500, #FF0000, #FFFF00);
+    /* Set animation for gradient */
+    animation: slideGradient 10s linear infinite;
+    color: #495057;
+}
+
+@keyframes slideGradient {
+    0% {
+        background-position: -100% center; /* Start from left */
+    }
+    100% {
+        background-position: 100% center; /* Move to right */
+    }
+}
+
+
+
+
+
+
 
         .navbar {
+            background: linear-gradient(to right, #343a40, #007bff);
+            height: 70px;
+            border-bottom: 2px solid #fff;
+        }
+
+        .navbar-toggler {
+            display: block;
             background-color: #007bff;
-            color: #fff;
+        }
+
+        .navbar-toggler-icon {
+            cursor: pointer;
+        }
+
+        .navbar-toggler-icon::before,
+        .navbar-toggler-icon::after {
+            content: '\00a0';
+            display: block;
+            height: 2px;
+            width: 30px;
+            background-color: #fff;
+            margin: 6px 0;
+        }
+
+        .navbar-collapse {
+            display: none;
+        }
+
+        .navbar-collapse.show {
+            display: flex;
+            background-color: #343a40;
+            padding: 15px;
         }
 
         .navbar-brand,
         .navbar-nav .nav-link {
             color: #fff !important;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ffc107 !important;
         }
 
         .container-main {
@@ -44,14 +98,14 @@
 
         .container-content {
             max-width: 600px;
-            background-color: #fff;
+            background-color: #ffffff;
             padding: 30px;
             border-radius: 15px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             margin-top: 60px;
             width: 100%;
             text-align: center;
-            animation: fadeInUp 0.8s ease-in-out; /* Add fadeInUp animation */
+           animation: fadeInUp 0.8s ease-in-out; /* Add fadeInUp animation */
         }
 
         @keyframes fadeInUp {
@@ -59,7 +113,6 @@
                 opacity: 0;
                 transform: translateY(20px);
             }
-
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -106,6 +159,7 @@
         button:hover {
             background-color: #0056b3;
             transform: scale(1.05);
+
         }
 
         .logout-link {
@@ -124,7 +178,7 @@
 
         .footer {
             height: 100px;
-            background-color: #007bff;
+            background-color: #343a40;
             color: #fff;
             padding: 30px 0;
             margin-top: auto;
@@ -142,16 +196,54 @@
             color: #fff;
             margin-right: 10px;
         }
-
         .social-icons a:hover {
-            color: #ffc000;
+        color: #FFC000; /* Change color on hover for better feedback */
+        }
+        .navbar-brand:hover,
+        .navbar-nav .nav-link:hover,
+        .footer:hover,
+        .social-icon:hover {
+            transform: scale(1.1);
+        }
+
+        .notification {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            z-index: 1000;
+        }
+
+        .notification-content {
+            margin-bottom: 10px;
+        }
+
+        .overview-button {
+            background-color: #fff;
+            color: #007bff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
         }
     </style>
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <div class="notification" id="notification">
+        <div class="notification-content">
+            Welcome to Our Sentiment Analysis Tool!
+        </div>
+        <button class="overview-button" onclick="location.href='/overview'">Overview</button>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" width="40" height="40">
@@ -172,11 +264,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/feedback">Feedback</a>
                     </li>
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="/team">Team</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="/contact">Contact</a>-->
+<!--                    </li>-->
                     <li class="nav-item">
-                        <a class="nav-link" href="/team">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/contact">Contact</a>
+                        <a class="nav-link" href="/index2">Colleges List</a>
                     </li>
                 </ul>
             </div>
@@ -232,7 +327,7 @@
 
     <footer class="footer py-4">
         <div class="container text-center">
-            <p>&copy; 2023 Engineering College Sentiment Analysis</p>
+            <p>&copy; 2024 Engineering College Sentiment Analysis</p>
             <p class="social-icons">
                 Follow us on social media:
                 <a href="https://twitter.com" class="fab fa-twitter"></a>

@@ -205,56 +205,607 @@ VNIT Nagpur,"82% of students in the mechanical department got placed. The highes
 VNIT Nagpur," The highest salary package in mechanical engineering was 18.5 LPA, with an average ranging from 8.5 LPA to 11.5 LPA.",Placements
 VNIT Nagpur,"Positive comments on Wi-Fi, library, labs, and hostel facilities.",Infrastructure
 VNIT Nagpur,"The hostel is quite good, well maintained and spacious (after Covid). Facilities like a night canteen and indoor sports are available in all the hostel blocks. The food quality in the mess and canteen is pretty average. The infrastructure of our college is decent. In the metallurgical and material engineering, all the facilities required to excel in the stream are well aptly provided. Anyone with the aim of doing well in this stream will surely be pleased with what our college provides.",Infrastructure
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-VNIT Nagpur,
-
+"VNIT Nagpur","Excellent faculty and strong curriculum. Learned a lot during my time here.","Academics,Facilities,Placements"
+"VNIT Nagpur","The hostel life was a great experience. Made lifelong friends.","Hostel Life,Campus Culture"
+"VNIT Nagpur","The location near Ambazari Lake is beautiful and peaceful.","Location,Ambazari Lake"
+"VNIT Nagpur","The workload can be challenging at times, but it prepares you well for the future.","Academics,Preparation"
+"VNIT Nagpur","The college provides good opportunities for extracurricular activities.","Extracurricular Activities,Clubs"
+"VNIT Nagpur","The alumni network is strong and supportive.","Alumni Network,Support"
+"VNIT Nagpur","The placements are good, but could be better for some branches.","Placements,Branch Specific"
+"VNIT Nagpur","The college is constantly evolving and improving.","Innovation,Development"
+"VNIT Nagpur","The fees are reasonable compared to other private engineering colleges.","Fees,Value for Money"
+"VNIT Nagpur","The library has a vast collection of books and resources.","Library,Resources"
+MIT-WPU,The faculty at MIT-WPU is exceptional. They are highly knowledgeable and always willing to help,Faculty
+MIT-WPU,The professors at MIT-WPU are experts in their fields and provide excellent guidance to students,Faculty
+MIT-WPU,Interactions with faculty members at MIT-WPU have been enriching and insightful,Faculty
+MIT-WPU,The faculty-student ratio at MIT-WPU allows for personalized attention and mentoring,Faculty
+MIT-WPU,MIT-WPU faculty members are approachable and supportivefostering a conducive learning environment,Faculty
+MIT-WPU,The placement opportunities provided by MIT-WPU are outstanding. Many top companies visit the campus for recruitment,Placements
+MIT-WPU,MIT-WPU has a robust placement cell that assists students in securing internships and job placements,Placements
+MIT-WPU,Students at MIT-WPU have access to a wide range of placement opportunities across various industries,Placements
+MIT-WPU,The placement record of MIT-WPU speaks volumes about the quality of education and training provided,Placements
+MIT-WPU,MIT-WPU ensures that students are well-prepared for interviews and placement processes through workshops and training sessions,Placements
+MIT-WPU,The fees at MIT-WPU are on the higher side compared to other colleges but the quality of education justifies the cost,Fees
+MIT-WPU,MIT-WPU offers scholarships and financial aid options to deserving students to ease the burden of fees,Fees
+MIT-WPU,The transparency in fee structure at MIT-WPU is appreciated with no hidden costs or surprises,Fees
+MIT-WPU,The fees at MIT-WPU are an investment in the future given the excellent facilities and opportunities provided,Fees
+MIT-WPU,MIT-WPU offers flexible payment options for fees making education accessible to students from diverse backgrounds,Fees
+MIT-WPU,The infrastructure of MIT-WPU is modern and well-maintained. The campus is equipped with state-of-the-art facilities,Infrastructure
+MIT-WPU,MIT-WPU constantly upgrades its infrastructure to provide students with the best learning environment,Infrastructure
+MIT-WPU,The campus of MIT-WPU is spacious and conducive to academic and extracurricular activities,Infrastructure
+MIT-WPU,The laboratories at MIT-WPU are equipped with the latest technology and instruments,Infrastructure
+MIT-WPU,MIT-WPU provides a Wi-Fi enabled campus with high-speed internet connectivity,Infrastructure
+MIT-WPU,Life at MIT-WPU is vibrant and engaging. There are numerous clubs and activities to participate in,Campus Life
+MIT-WPU,MIT-WPU organizes cultural festivals and events that add color and vibrancy to campus life,Campus Life
+MIT-WPU,Students at MIT-WPU form close-knit communities through various clubs and interest groups,Campus Life
+MIT-WPU,The campus of MIT-WPU is safe and inclusive fostering a sense of belonging among students,Campus Life
+MIT-WPU,MIT-WPU encourages students to engage in community service and social initiatives,Campus Life
+MIT-WPU,MIT-WPU provides excellent exposure to industry through various guest lectures workshops and industrial visits,Industry Exposure
+MIT-WPU,The industry tie-ups of MIT-WPU open doors to internship and job opportunities for students,Industry Exposure
+MIT-WPU,Students at MIT-WPU get practical insights into industry practices through real-world projects,Industry Exposure
+MIT-WPU,MIT-WPU collaborates with leading companies to offer hands-on training and industry certifications,Industry Exposure
+MIT-WPU,Industry experts frequently visit MIT-WPU to share their experiences and insights with students,Industry Exposure
+MIT-WPU,The curriculum at MIT-WPU is updated regularly to meet industry standards and demands,Curriculum
+MIT-WPU,MIT-WPU offers elective courses that allow students to tailor their learning experience according to their interests,Curriculum
+MIT-WPU,The curriculum at MIT-WPU emphasizes practical learning and problem-solving skills,Curriculum
+MIT-WPU,MIT-WPU encourages interdisciplinary learning through cross-departmental courses and projects,Curriculum
+MIT-WPU,The curriculum at MIT-WPU is designed in consultation with industry experts to ensure relevance,Curriculum
+MIT-WPU,Placement assistance at MIT-WPU is commendable. The placement cell works tirelessly to ensure every student gets placed in a good company,Placement
+MIT-WPU,MIT-WPU provides personalized career counseling and guidance to students to help them make informed career choices,Placement
+MIT-WPU,The alumni network of MIT-WPU provides valuable connections and support in the job search process,Placement
+MIT-WPU,The placement process at MIT-WPU is transparent and fair giving equal opportunities to all students,Placement
+MIT-WPU,MIT-WPU conducts mock interviews and group discussions to prepare students for placement rounds,Placement
+MIT-WPU,MIT-WPU offers great internship opportunities with reputed companies allowing students to gain practical experience in their field,Internship Opportunities
+MIT-WPU,The internship programs at MIT-WPU provide students with exposure to real-world challenges and scenarios,Internship Opportunities
+MIT-WPU,MIT-WPU assists students in securing internships that align with their career goals and aspirations,Internship Opportunities
+MIT-WPU,Internship experiences at MIT-WPU are highly valued by employers for their practical relevance and learning outcomes,Internship Opportunities
+MIT-WPU,The internship coordinators at MIT-WPU provide guidance and support to students throughout their internship period,Internship Opportunities
+MIT-WPU,There are plenty of extracurricular activities available at MIT-WPU to enhance overall development,Extracurricular Activities
+MIT-WPU,Extracurricular activities at MIT-WPU range from sports and cultural events to technical competitions and social initiatives,Extracurricular Activities
+MIT-WPU,Participation in extracurricular activities at MIT-WPU helps students develop leadership and teamwork skills,Extracurricular Activities
+MIT-WPU,MIT-WPU encourages students to take part in national and international events and competitions,Extracurricular Activities
+MIT-WPU,The accreditation of MIT-WPU by NAAC with an 'A' grade reflects its commitment to quality education and excellence,Accreditation
+MIT-WPU,Accreditation ensures that the academic programs offered by MIT-WPU meet stringent quality standards,Accreditation
+MIT-WPU,MIT-WPU undergoes regular quality assessments to maintain its accreditation status,Accreditation
+MIT-WPU,The accreditation of MIT-WPU enhances the credibility of degrees awarded by the institution,Accreditation
+MIT-WPU,Students at MIT-WPU benefit from the academic rigor and quality assurance measures enforced due to accreditation,Accreditation
+MIT-WPU,The facilities provided by MIT-WPU are top-notch including well-equipped labs libraries and sports facilities,Facilities
+MIT-WPU,MIT-WPU invests in maintaining and upgrading its facilities to ensure a conducive learning environment,Facilities
+MIT-WPU,The facilities at MIT-WPU cater to the diverse needs of students providing ample resources for academic and extracurricular activities,Facilities
+MIT-WPU,MIT-WPU ensures accessibility and inclusivity through facilities designed for students with disabilities,Facilities
+MIT-WPU,The facilities management team at MIT-WPU ensures cleanliness and maintenance of campus facilities round the clock,Facilities
+MIT-WPU,The admission process at MIT-WPU is smooth and efficient. The staff guide applicants at every step making it hassle-free,Admission Process
+MIT-WPU,MIT-WPU conducts entrance exams and interviews to assess the aptitude and suitability of applicants,Admission Process
+MIT-WPU,The admission criteria of MIT-WPU are transparent and merit-based ensuring fair selection of candidates,Admission Process
+MIT-WPU,MIT-WPU offers admission to students from diverse backgrounds fostering a culture of inclusivity and diversity,Admission Process
+MIT-WPU,The admission team at MIT-WPU provides prompt assistance and guidance to applicants regarding the admission process,Admission Process
+VJTI Mumbai,"The faculty at VJTI Mumbai is exceptional. They are knowledgeable and always ready to help. The campus infrastructure is also top-notch.","Faculty"
+VJTI Mumbai,"The faculty members at VJTI Mumbai are approachable and supportive, guiding students throughout their academic journey.","Faculty"
+VJTI Mumbai,"The faculty members at VJTI Mumbai are not only knowledgeable but also approachable, creating a conducive learning environment for students to thrive.","Faculty"
+VJTI Mumbai,"The faculty at VJTI Mumbai is highly experienced, with many professors actively involved in research and industry collaborations.","Faculty"
+VJTI Mumbai,"The faculty members at VJTI Mumbai are passionate about their subjects, inspiring students to excel in their studies.","Faculty"
+VJTI Mumbai,"The fees at VJTI Mumbai are reasonable compared to other institutions offering similar programs. It's a good value for money.","Fees"
+VJTI Mumbai,"The transparent fee structure at VJTI Mumbai ensures that students and their families can plan their finances effectively, without any hidden costs or surprises.","Fees"
+VJTI Mumbai,"The fees structure at VJTI Mumbai is flexible, with options for installment payments and financial assistance for deserving students.","Fees"
+VJTI Mumbai,"The fees at VJTI Mumbai are affordable, making quality education accessible to a wide range of students.","Fees"
+VJTI Mumbai,"The fees at VJTI Mumbai are competitive, considering the excellent facilities and faculty expertise provided by the institution.","Fees"
+VJTI Mumbai,"The infrastructure at VJTI Mumbai is modern and well-maintained. The buildings are equipped with state-of-the-art facilities.","Infrastructure"
+VJTI Mumbai,"VJTI Mumbai invests in state-of-the-art infrastructure to create a conducive environment for learning, research, and innovation.","Infrastructure"
+VJTI Mumbai,"The infrastructure of VJTI Mumbai is continuously upgraded to provide students with the best possible learning facilities.","Infrastructure"
+VJTI Mumbai,"The campus infrastructure at VJTI Mumbai is impressive, with modern buildings and well-equipped labs.","Infrastructure"
+VJTI Mumbai,"The infrastructure at VJTI Mumbai is designed to meet the needs of students, providing them with a comfortable and conducive learning environment.","Infrastructure"
+VJTI Mumbai,"Campus life at VJTI Mumbai is vibrant and exciting. There are numerous clubs and activities to participate in.","Campus Life"
+VJTI Mumbai,"Campus life at VJTI Mumbai is enriching, with various cultural and sports events happening throughout the year.","Campus Life"
+VJTI Mumbai,"Campus life at VJTI Mumbai is dynamic and vibrant, offering students a plethora of opportunities to engage in cultural, social, and academic activities.","Campus Life"
+VJTI Mumbai,"The vibrant campus life at VJTI Mumbai offers students numerous opportunities for personal and professional growth.","Campus Life"
+VJTI Mumbai,"The industry exposure at VJTI Mumbai is extensive. Students have the opportunity to interact with professionals and gain real-world insights.","Industry Exposure"
+VJTI Mumbai,"The industry expos organized by VJTI Mumbai provide students with valuable networking opportunities and insights into the latest trends.","Industry Exposure"
+VJTI Mumbai,"The industry expos hosted by VJTI Mumbai bring together leading professionals and experts to share insights and best practices.","Industry Exposure"
+VJTI Mumbai,"The industry expos organized by VJTI Mumbai serve as a bridge between academia and industry, providing students with valuable insights and networking opportunities.","Industry Exposure"
+VJTI Mumbai,"The curriculum at VJTI Mumbai is comprehensive and covers a wide range of topics relevant to the industry.","Curriculum"
+VJTI Mumbai,"The curriculum at VJTI Mumbai is designed to be industry-relevant, ensuring that students are well-prepared for their future careers.","Curriculum"
+VJTI Mumbai,"The curriculum at VJTI Mumbai is dynamic, incorporating the latest industry trends and technologies to ensure relevance.","Curriculum"
+VJTI Mumbai,"The curriculum at VJTI Mumbai is designed in consultation with industry experts to ensure that it remains relevant and aligned with industry requirements.","Curriculum"
+VJTI Mumbai,"The placement support provided by VJTI Mumbai is excellent. The placement cell works tirelessly to connect students with top companies.","Placement"
+VJTI Mumbai,"The placement process at VJTI Mumbai is systematic and efficient, with a high percentage of students placed in reputable companies.","Placement"
+VJTI Mumbai,"The placement assistance provided by VJTI Mumbai includes resume building, interview preparation, and networking opportunities, giving students a competitive edge in the job market.","Placement"
+VJTI Mumbai,"The placement cell at VJTI Mumbai provides extensive support to students, including internship placements, mock interviews, and career counseling, to help them secure lucrative job offers.","Placement"
+VJTI Mumbai,"VJTI Mumbai facilitates internships for students in leading companies, giving them hands-on experience in their chosen field.","Internship Opportunities"
+VJTI Mumbai,"Internship opportunities at VJTI Mumbai allow students to apply theoretical knowledge to real-world scenarios, enhancing their practical skills and industry readiness.","Internship Opportunities"
+VJTI Mumbai,"VJTI Mumbai collaborates with industry partners to provide students with internship opportunities that align with their career goals.","Internship Opportunities"
+VJTI Mumbai,"Internship opportunities at VJTI Mumbai enable students to gain practical experience, build industry connections, and apply classroom knowledge to real-world challenges.","Internship Opportunities"
+VJTI Mumbai,"The extracurricular activities at VJTI Mumbai are diverse and engaging. There's something for everyone to participate in.","Extracurricular Activities"
+VJTI Mumbai,"Extracurricular activities at VJTI Mumbai foster leadership skills, teamwork, and personal development, complementing the academic curriculum and shaping well-rounded individuals.","Extracurricular Activities"
+VJTI Mumbai,"The wide array of extracurricular activities at VJTI Mumbai allows students to explore their interests and develop new skills outside the classroom.","Extracurricular Activities"
+VJTI Mumbai,"Extracurricular activities play a vital role in the holistic development of students at VJTI Mumbai, providing them with opportunities to explore their interests and talents outside the classroom.","Extracurricular Activities"
+VJTI Mumbai,"VJTI Mumbai is accredited by reputable organizations, ensuring the quality and standards of education.","Accreditation"
+VJTI Mumbai,"The accreditation of VJTI Mumbai adds credibility to the degrees awarded by the institution, enhancing the value of education.","Accreditation"
+VJTI Mumbai,"The accreditation of VJTI Mumbai by renowned accrediting bodies reflects the institution's commitment to academic excellence and quality education delivery.","Accreditation"
+VJTI Mumbai,"The accreditation of VJTI Mumbai by recognized accrediting bodies ensures that the institution meets rigorous standards of quality and excellence in education delivery.","Accreditation"
+VJTI Mumbai,"The facilities at VJTI Mumbai are top-notch, providing students with everything they need for a comfortable learning experience.","Facilities"
+VJTI Mumbai,"The modern facilities at VJTI Mumbai contribute to an enriching learning experience, supporting both academic and extracurricular pursuits.","Facilities"
+VJTI Mumbai,"The facilities at VJTI Mumbai are designed to meet the needs of students, providing them with a conducive environment for learning.","Facilities"
+VJTI Mumbai,"The modern facilities at VJTI Mumbai are designed to enhance the learning experience, promote research and innovation, and support the overall well-being of students and faculty.","Facilities"
+Ait pune,The faculty at AIT Pune is highly knowledgeable and supportive.,Faculty
+Ait pune,The placement cell at AIT Pune works tirelessly to ensure every student gets placed in a reputable company.,Placements
+Ait pune,The fees at AIT Pune are reasonable considering the quality of education provided.,Fees
+Ait pune,AIT Pune boasts modern infrastructure with state-of-the-art labs and classrooms.,Infrastructure
+Ait pune,Life at AIT Pune is vibrant with various cultural and sports events throughout the year.,Campus Life
+Ait pune,AIT Pune provides ample industry exposure through guest lectures and industrial visits.,Industry Exposure
+Ait pune,The curriculum at AIT Pune is well-structured and aligned with industry standards.,Curriculum
+Ait pune,The placement record of AIT Pune speaks for itself with many students placed in top companies.,Placement
+Ait pune,AIT Pune offers numerous internship opportunities with leading organizations.,Internship Opportunities
+Ait pune,Extracurricular activities at AIT Pune cater to diverse interests and talents of students.,Extracurricular Activities
+Ait pune,AIT Pune is accredited by NAAC ensuring quality education and standards.,Accreditation
+Ait pune,AIT Pune provides excellent facilities including libraries sports facilities and more.,Facilities
+Ait pune,The faculty members at AIT Pune are approachable and always willing to help.,Faculty
+Ait pune,Placement assistance at AIT Pune is comprehensive covering resume building interview preparation and more.,Placement
+Ait pune,The fees structure at AIT Pune is transparent with no hidden charges.,Fees
+Ait pune,AIT Pune's infrastructure supports hands-on learning with well-equipped labs and workshops.,Infrastructure
+Ait pune,Campus life at AIT Pune is dynamic with student clubs and events fostering a sense of community.,Campus Life
+Ait pune,AIT Pune collaborates with industry partners to provide practical exposure to students.,Industry Exposure
+Ait pune,The curriculum at AIT Pune is designed to enhance both theoretical knowledge and practical skills.,Curriculum
+Ait pune,Placements at AIT Pune are driven by a strong network of alumni and industry connections.,Placement
+Ait pune,AIT Pune offers internships in various sectors giving students valuable work experience.,Internship Opportunities
+Ait pune,Extracurricular activities play a vital role in the holistic development of students at AIT Pune.,Extracurricular Activities
+Ait pune,The accreditation of AIT Pune ensures that academic standards are maintained.,Accreditation
+Ait pune,AIT Pune's facilities support academic and extracurricular activities effectively.,Facilities
+Ait pune,The faculty-student ratio at AIT Pune allows for personalized attention and mentorship.,Faculty
+Ait pune,AIT Pune's placement team conducts mock interviews to prepare students for corporate placements.,Placement
+Ait pune,Affordability and quality education go hand in hand at AIT Pune.,Fees
+Ait pune,The campus infrastructure of AIT Pune fosters innovation and creativity among students.,Infrastructure
+Ait pune,Students at AIT Pune actively participate in campus life events making memories that last a lifetime.,Campus Life
+Ait pune,AIT Pune's industry tie-ups ensure that students gain insights into real-world challenges.,Industry Exposure
+Ait pune,AIT Pune's curriculum is updated regularly to keep pace with industry trends.,Curriculum
+Ait pune,Placement drives at AIT Pune are customized to match individual student profiles.,Placement
+Ait pune,Internship opportunities at AIT Pune provide practical exposure and skill development.,Internship Opportunities
+Ait pune,AIT Pune encourages students to explore their passions through extracurricular activities.,Extracurricular Activities
+Ait pune,The accreditation status of AIT Pune adds value to the degrees offered by the institution.,Accreditation
+Ait pune,AIT Pune's facilities are well-maintained creating a conducive learning environment.,Facilities
+Ait pune,The placement process at AIT Pune is not as transparent as it should be.,Placement
+Ait pune,Some students have expressed dissatisfaction with the placement opportunities provided by AIT Pune.,Placement
+Ait pune,The placement assistance offered by AIT Pune needs improvement according to some students.,Placement
+Ait pune,Several students have reported issues with the placement support system at AIT Pune.,Placement
+Ait pune,The placement record of AIT Pune has been inconsistent  with some students struggling to secure placements.,Placement
+Ait pune,Overall the placement experience at AIT Pune has been positive for most students.,Placement
+Ait pune,Many students have praised the placement support provided by AIT Pune.,Placement
+Ait pune,The placement cell at AIT Pune is proactive and helpful ensuring students are well-prepared for job interviews.,Placement
+Ait pune,AIT Pune offers a wide range of placement opportunities in diverse industries.,Placement
+Ait pune,Students appreciate the personalized attention they receive from the placement team at AIT Pune.,Placement
+Ait pune,The placement process at AIT Pune is rigorous but rewarding preparing students for the challenges of the corporate world.,Placement
+Ait pune,The placement assistance provided by AIT Pune has been instrumental in securing internships and job offers for many students.,Placement
+Ait pune,Despite some challenges the placement cell at AIT Pune continues to strive for excellence ensuring students' success in their careers.,Placement
+Ait pune,The placement record of AIT Pune reflects the dedication and hard work of both students and faculty.,Placement
+Ait pune,Positive feedback from recruiters highlights the quality of students graduating from AIT Pune.,Placement
+Ait pune,Students commend the efforts of the placement cell at AIT Pune in organizing campus recruitment drives and industry interactions.,Placement
+Ait pune,The placement cell at AIT Pune goes above and beyond to assist students in securing internships and job placements.,Placement
+Ait pune,The placement process at AIT Pune is well-structured ensuring students are prepared for the competitive job market.,Placement
+Ait pune,The placement assistance provided by AIT Pune has been pivotal in shaping the career paths of many students.,Placement
+Ait pune,Despite the challenges posed by the pandemic AIT Pune's placement cell has adapted well offering virtual recruitment drives and online placement assistance.,Placement
+Ait pune,The placement cell at AIT Pune maintains strong ties with industry partners facilitating smooth recruitment processes for students.,Placement
+Ait pune,While the placement process at AIT Pune can be demanding students appreciate the guidance and support provided by faculty and mentors.,Placement
+Ait pune,The placement cell at AIT Pune continuously updates its strategies to align with industry trends ensuring students are well-equipped for the job market.,Placement
+Ait pune,The placement record of AIT Pune reflects the institution's commitment to providing quality education and grooming students for successful careers.,Placement
+Ait pune,Some students have expressed dissatisfaction with the placement process at AIT Pune citing a lack of individualized attention and support.,Placement
+Ait pune,The placement opportunities provided by AIT Pune have been limited for certain disciplinesprompting concerns among students.,Placement
+Ait pune,The placement assistance at AIT Pune could be more proactive in identifying and addressing the specific needs and preferences of students.,Placement
+Ait pune,Despite efforts to enhance the placement process AIT Pune still faces challenges in securing placements for all its students especially during economic downturns.,Placement
+"G.H. Raisoni College of Engineering, Nagpur","The faculty at G.H. Raisoni College of Engineering, Nagpur, is highly knowledgeable and supportive.",Faculty
+"G.H. Raisoni College of Engineering, Nagpur","The placement cell at G.H. Raisoni College of Engineering, Nagpur, ensures every student gets placed in a reputable company.",Placements
+"G.H. Raisoni College of Engineering, Nagpur","The fees at G.H. Raisoni College of Engineering, Nagpur, are affordable compared to other colleges.",Fees
+"G.H. Raisoni College of Engineering, Nagpur","The infrastructure at G.H. Raisoni College of Engineering, Nagpur, is well-maintained with modern facilities.",Infrastructure
+"G.H. Raisoni College of Engineering, Nagpur","Campus life at G.H. Raisoni College of Engineering, Nagpur, is vibrant with various cultural events and clubs.",Campus Life
+"G.H. Raisoni College of Engineering, Nagpur","G.H. Raisoni College of Engineering, Nagpur, provides ample industry exposure through workshops and guest lectures.",Industry Exposure
+"G.H. Raisoni College of Engineering, Nagpur","The curriculum at G.H. Raisoni College of Engineering, Nagpur, is designed to meet industry standards.",Curriculum
+"G.H. Raisoni College of Engineering, Nagpur","Placement opportunities at G.H. Raisoni College of Engineering, Nagpur, are abundant and diverse.",Placement
+"G.H. Raisoni College of Engineering, Nagpur","G.H. Raisoni College of Engineering, Nagpur, offers internships in various sectors to enhance students' practical skills.",Internship Opportunities
+"G.H. Raisoni College of Engineering, Nagpur","Extracurricular activities at G.H. Raisoni College of Engineering, Nagpur, cater to diverse interests and talents.",Extracurricular Activities
+"G.H. Raisoni College of Engineering, Nagpur","G.H. Raisoni College of Engineering, Nagpur, is accredited by NAAC ensuring quality education.",Accreditation
+"G.H. Raisoni College of Engineering, Nagpur","Facilities at G.H. Raisoni College of Engineering, Nagpur, include well-equipped labs and libraries.",Facilities
+"G.H. Raisoni College of Engineering, Nagpur","Some students at G.H. Raisoni College of Engineering, Nagpur, feel that the faculty lacks proper expertise.",Faculty
+"G.H. Raisoni College of Engineering, Nagpur","A few students have expressed dissatisfaction with the placement support provided by G.H. Raisoni College of Engineering, Nagpur.",Placements
+"G.H. Raisoni College of Engineering, Nagpur","The fees structure at G.H. Raisoni College of Engineering, Nagpur, is unclear according to some students.",Fees
+"G.H. Raisoni College of Engineering, Nagpur","The infrastructure at G.H. Raisoni College of Engineering, Nagpur, needs improvement in terms of facilities.",Infrastructure
+"G.H. Raisoni College of Engineering, Nagpur","Some students find campus life at G.H. Raisoni College of Engineering, Nagpur, monotonous and dull.",Campus Life
+"G.H. Raisoni College of Engineering, Nagpur","There are concerns among students regarding the lack of industry exposure at G.H. Raisoni College of Engineering, Nagpur.",Industry Exposure
+"G.H. Raisoni College of Engineering, Nagpur","A few students feel that the curriculum at G.H. Raisoni College of Engineering, Nagpur, is outdated and not relevant.",Curriculum
+"G.H. Raisoni College of Engineering, Nagpur","Placement opportunities at G.H. Raisoni College of Engineering, Nagpur, are limited according to some students.",Placement
+"G.H. Raisoni College of Engineering, Nagpur","Internship opportunities at G.H. Raisoni College of Engineering, Nagpur, are scarce for certain disciplines.",Internship Opportunities
+"G.H. Raisoni College of Engineering, Nagpur","Some students feel that extracurricular activities at G.H. Raisoni College of Engineering, Nagpur, are poorly organized.",Extracurricular Activities
+"G.H. Raisoni College of Engineering, Nagpur","The accreditation status of G.H. Raisoni College of Engineering, Nagpur, is questionable according to some students.",Accreditation
+"G.H. Raisoni College of Engineering, Nagpur","Facilities at G.H. Raisoni College of Engineering, Nagpur, need upgrading to meet modern standards.",Facilities
+"G.H. Raisoni College of Engineering, Nagpur","The faculty members at G.H. Raisoni College of Engineering, Nagpur, are approachable and supportive.",Faculty
+"G.H. Raisoni College of Engineering, Nagpur","Many students praise the placement cell at G.H. Raisoni College of Engineering, Nagpur, for their efforts.",Placements
+"G.H. Raisoni College of Engineering, Nagpur","The fees structure at G.H. Raisoni College of Engineering, Nagpur, is transparent and affordable for most students.",Fees
+"G.H. Raisoni College of Engineering, Nagpur","The infrastructure at G.H. Raisoni College of Engineering, Nagpur, is commendable with modern facilities.",Infrastructure
+"G.H. Raisoni College of Engineering, Nagpur","Campus life at G.H. Raisoni College of Engineering, Nagpur, is enriching with various events and activities.",Campus Life
+"G.H. Raisoni College of Engineering, Nagpur","Industry exposure at G.H. Raisoni College of Engineering, Nagpur, is facilitated through industry visits and guest lectures.",Industry Exposure
+"G.H. Raisoni College of Engineering, Nagpur","The curriculum at G.H. Raisoni College of Engineering, Nagpur, is comprehensive and prepares students for the industry.",Curriculum
+"G.H. Raisoni College of Engineering, Nagpur","Placement opportunities at G.H. Raisoni College of Engineering, Nagpur, are extensive with participation from top companies.",Placement
+"G.H. Raisoni College of Engineering, Nagpur","Internship opportunities at G.H. Raisoni College of Engineering, Nagpur, provide practical experience and skill development.",Internship Opportunities
+"G.H. Raisoni College of Engineering, Nagpur","Extracurricular activities at G.H. Raisoni College of Engineering, Nagpur, are diverse and cater to different interests.",Extracurricular Activities
+"G.H. Raisoni College of Engineering, Nagpur","The accreditation of G.H. Raisoni College of Engineering, Nagpur, assures students of the quality of education provided.",Accreditation
+"G.H. Raisoni College of Engineering, Nagpur","Facilities at G.H. Raisoni College of Engineering, Nagpur, are modern and equipped with the latest technology.",Facilities
+"G.H. Raisoni College of Engineering, Nagpur","Students appreciate the supportive nature of the faculty at G.H. Raisoni College of Engineering, Nagpur.",Faculty
+"G.H. Raisoni College of Engineering, Nagpur","Placement opportunities at G.H. Raisoni College of Engineering, Nagpur, are commendable with high placement rates.",Placements
+"G.H. Raisoni College of Engineering, Nagpur","The fees at G.H. Raisoni College of Engineering, Nagpur, are perceived as reasonable by most students.",Fees
+"G.H. Raisoni College of Engineering, Nagpur","The infrastructure at G.H. Raisoni College of Engineering, Nagpur, is well-equipped to facilitate learning.",Infrastructure
+"G.H. Raisoni College of Engineering, Nagpur","Campus life at G.H. Raisoni College of Engineering, Nagpur, fosters a sense of community among students.",Campus Life
+"G.H. Raisoni College of Engineering, Nagpur","Industry exposure at G.H. Raisoni College of Engineering, Nagpur, is adequate to prepare students for the job market.",Industry Exposure
+"G.H. Raisoni College of Engineering, Nagpur","The curriculum at G.H. Raisoni College of Engineering, Nagpur, is designed to provide practical skills and knowledge.",Curriculum
+"G.H. Raisoni College of Engineering, Nagpur","Placement drives at G.H. Raisoni College of Engineering, Nagpur, attract top companies offering lucrative job opportunities.",Placement
+"G.H. Raisoni College of Engineering, Nagpur","Internship opportunities at G.H. Raisoni College of Engineering, Nagpur, are available in various industries.",Internship Opportunities
+"G.H. Raisoni College of Engineering, Nagpur","Extracurricular activities at G.H. Raisoni College of Engineering, Nagpur, play a vital role in holistic student development.",Extracurricular Activities
+"G.H. Raisoni College of Engineering, Nagpur","The accreditation of G.H. Raisoni College of Engineering, Nagpur, signifies the quality education imparted by the institution.",Accreditation
+"G.H. Raisoni College of Engineering, Nagpur","Facilities at G.H. Raisoni College of Engineering, Nagpur, are modern and contribute to a conducive learning environment.",Facilities
+"G.H. Raisoni College of Engineering, Nagpur","Faculty members at G.H. Raisoni College of Engineering, Nagpur, are approachable and provide personalized attention to students.",Faculty
+"G.H. Raisoni College of Engineering, Nagpur","Placement support provided by G.H. Raisoni College of Engineering, Nagpur, is effective in securing job placements for students.",Placements
+"G.H. Raisoni College of Engineering, Nagpur","The fees structure at G.H. Raisoni College of Engineering, Nagpur, is transparent and well-structured.",Fees
+"G.H. Raisoni College of Engineering, Nagpur","The infrastructure at G.H. Raisoni College of Engineering, Nagpur, is modern and facilitates experiential learning.",Infrastructure
+"G.H. Raisoni College of Engineering, Nagpur","Campus life at G.H. Raisoni College of Engineering, Nagpur, is vibrant with a range of cultural and sports activities.",Campus Life
+"G.H. Raisoni College of Engineering, Nagpur","Industry exposure at G.H. Raisoni College of Engineering, Nagpur, is provided through internships and industry projects.",Industry Exposure
+"G.H. Raisoni College of Engineering, Nagpur","The curriculum at G.H. Raisoni College of Engineering, Nagpur, is industry-oriented and updated regularly.",Curriculum
+"G.H. Raisoni College of Engineering, Nagpur","Placement opportunities at G.H. Raisoni College of Engineering, Nagpur, are promising with a high success rate.",Placement
+"G.H. Raisoni College of Engineering, Nagpur","Internship opportunities at G.H. Raisoni College of Engineering, Nagpur, provide hands-on experience in real-world scenarios.",Internship Opportunities
+"G.H. Raisoni College of Engineering, Nagpur","Extracurricular activities at G.H. Raisoni College of Engineering, Nagpur, are well-organized and contribute to overall personality development.",Extracurricular Activities
+"G.H. Raisoni College of Engineering, Nagpur","The accreditation of G.H. Raisoni College of Engineering, Nagpur, is a testament to its commitment to quality education.",Accreditation
+"G.H. Raisoni College of Engineering, Nagpur","Facilities at G.H. Raisoni College of Engineering, Nagpur, are modern and equipped with state-of-the-art technology.",Facilities
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","The faculty at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is knowledgeable and supportive.",Faculty
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Placement opportunities at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, are excellent with a high success rate.",Placements
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","The fees structure at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is reasonable and transparent.",Fees
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","The infrastructure at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is modern and well-maintained.",Infrastructure
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Campus life at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is vibrant with various events and activities.",Campus Life
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Industry exposure at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is facilitated through internships and industrial visits.",Industry Exposure
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","The curriculum at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is comprehensive and industry-relevant.",Curriculum
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Placement assistance at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is effective in securing job placements.",Placement
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Internship opportunities at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, provide valuable industry experience.",Internship Opportunities
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Extracurricular activities at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, are diverse and enriching.",Extracurricular Activities
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is accredited by NAAC ensuring quality education.",Accreditation
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Facilities at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, are modern and equipped with the latest technology.",Facilities
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Faculty members at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, are knowledgeable and approachable.",Faculty
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","The placement process at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is systematic and well-organized.",Placements
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","The fees charged by Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, are reasonable compared to other institutions.",Fees
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","The campus infrastructure at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is well-maintained and modern.",Infrastructure
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Students at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, engage in various extracurricular activities enhancing their overall development.",Extracurricular Activities
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, provides students with ample opportunities for industry exposure.",Industry Exposure
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","The curriculum at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is designed to meet industry standards and requirements.",Curriculum
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Placement assistance provided by Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is effective in securing internships and job placements.",Placement
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Internship opportunities at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, are diverse and provide exposure to various industries.",Internship Opportunities
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Extracurricular activities at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, cater to different interests and talents of students.",Extracurricular Activities
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, holds accreditation from reputed organizations ensuring quality education.",Accreditation
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Facilities at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, are well-maintained and provide a conducive learning environment.",Facilities
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","The faculty at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is knowledgeable and supportive.",Faculty
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Placement opportunities at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, are excellent with a high success rate.",Placements
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","The fees structure at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is reasonable and transparent.",Fees
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","The infrastructure at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is modern and well-maintained.",Infrastructure
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Campus life at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is vibrant with various events and activities.",Campus Life
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Industry exposure at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is facilitated through internships and industrial visits.",Industry Exposure
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","The curriculum at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is comprehensive and industry-relevant.",Curriculum
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Placement assistance at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is effective in securing job placements.",Placement
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Internship opportunities at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, provide valuable industry experience.",Internship Opportunities
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Extracurricular activities at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, are diverse and enriching.",Extracurricular Activities
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is accredited by NAAC ensuring quality education.",Accreditation
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Facilities at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, are modern and equipped with the latest technology.",Facilities
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Some students at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, find the faculty to be helpful and approachable.",Faculty
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","The placement process at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is systematic and well-organized.",Placements
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","The fees charged by Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, are reasonable compared to other institutions.",Fees
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","The campus infrastructure at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is well-maintained and modern.",Infrastructure
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Students at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, engage in various extracurricular activities enhancing their overall development.",Extracurricular Activities
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, provides students with ample opportunities for industry exposure.",Industry Exposure
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","The curriculum at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is designed to meet industry standards and requirements.",Curriculum
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Placement assistance provided by Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, is effective in securing internships and job placements.",Placement
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Internship opportunities at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, are diverse and provide exposure to various industries.",Internship Opportunities
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Extracurricular activities at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, cater to different interests and talents of students.",Extracurricular Activities
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, holds accreditation from reputed organizations ensuring quality education.",Accreditation
+"Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai","Facilities at Ramrao Adik Institute of Technology, Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai, are well-maintained and provide a conducive learning environment.",Facilities
+"Bharati Vidyapeeth College of Engineering","The faculty members at Bharati Vidyapeeth College of Engineering are highly knowledgeable and supportive.","Faculty"
+"Bharati Vidyapeeth College of Engineering","Placement opportunities at Bharati Vidyapeeth College of Engineering are commendable with a high success rate.","Placements"
+"Bharati Vidyapeeth College of Engineering","The fees structure at Bharati Vidyapeeth College of Engineering is reasonable and transparent.","Fees"
+"Bharati Vidyapeeth College of Engineering","The infrastructure at Bharati Vidyapeeth College of Engineering is modern and well-maintained.","Infrastructure"
+"Bharati Vidyapeeth College of Engineering","Campus life at Bharati Vidyapeeth College of Engineering is vibrant with various events and activities.","Campus Life"
+"Bharati Vidyapeeth College of Engineering","Industry exposure at Bharati Vidyapeeth College of Engineering is facilitated through internships and industrial visits.","Industry Exposure"
+"Bharati Vidyapeeth College of Engineering","The curriculum at Bharati Vidyapeeth College of Engineering is comprehensive and industry-relevant.","Curriculum"
+"Bharati Vidyapeeth College of Engineering","Placement assistance at Bharati Vidyapeeth College of Engineering is effective in securing job placements.","Placement"
+"Bharati Vidyapeeth College of Engineering","Internship opportunities at Bharati Vidyapeeth College of Engineering provide valuable industry experience.","Internship Opportunities"
+"Bharati Vidyapeeth College of Engineering","Extracurricular activities at Bharati Vidyapeeth College of Engineering are diverse and enriching.","Extracurricular Activities"
+"Bharati Vidyapeeth College of Engineering","Bharati Vidyapeeth College of Engineering is accredited by reputed organizations ensuring quality education.","Accreditation"
+"Bharati Vidyapeeth College of Engineering","Facilities at Bharati Vidyapeeth College of Engineering are modern and equipped with the latest technology.","Facilities"
+"Bharati Vidyapeeth College of Engineering","Some students find the faculty at Bharati Vidyapeeth College of Engineering to be helpful and approachable.","Faculty"
+"Bharati Vidyapeeth College of Engineering","The placement process at Bharati Vidyapeeth College of Engineering is systematic and well-organized.","Placements"
+"Bharati Vidyapeeth College of Engineering","The fees charged by Bharati Vidyapeeth College of Engineering are reasonable compared to other institutions.","Fees"
+"Bharati Vidyapeeth College of Engineering","The campus infrastructure at Bharati Vidyapeeth College of Engineering is well-maintained and modern.","Infrastructure"
+"Bharati Vidyapeeth College of Engineering","Students at Bharati Vidyapeeth College of Engineering engage in various extracurricular activities enhancing their overall development.","Extracurricular Activities"
+"Bharati Vidyapeeth College of Engineering","Bharati Vidyapeeth College of Engineering provides students with ample opportunities for industry exposure.","Industry Exposure"
+"Bharati Vidyapeeth College of Engineering","The curriculum at Bharati Vidyapeeth College of Engineering is designed to meet industry standards and requirements.","Curriculum"
+"Bharati Vidyapeeth College of Engineering","Placement assistance provided by Bharati Vidyapeeth College of Engineering is effective in securing internships and job placements.","Placement"
+"Bharati Vidyapeeth College of Engineering","Internship opportunities at Bharati Vidyapeeth College of Engineering are diverse and provide exposure to various industries.","Internship Opportunities"
+"Bharati Vidyapeeth College of Engineering","Extracurricular activities at Bharati Vidyapeeth College of Engineering cater to different interests and talents of students.","Extracurricular Activities"
+"Bharati Vidyapeeth College of Engineering","Bharati Vidyapeeth College of Engineering holds accreditation from reputed organizations ensuring quality education.","Accreditation"
+"Bharati Vidyapeeth College of Engineering","Facilities at Bharati Vidyapeeth College of Engineering are well-maintained and provide a conducive learning environment.","Facilities"
+"Bharati Vidyapeeth College of Engineering","Some faculty members at Bharati Vidyapeeth College of Engineering lack expertise in their respective fields.","Faculty"
+"Bharati Vidyapeeth College of Engineering","Several students have expressed dissatisfaction with the placement opportunities provided by Bharati Vidyapeeth College of Engineering.","Placements"
+"Bharati Vidyapeeth College of Engineering","The fees charged by Bharati Vidyapeeth College of Engineering are higher compared to the quality of education provided.","Fees"
+"Bharati Vidyapeeth College of Engineering","The infrastructure at Bharati Vidyapeeth College of Engineering is outdated and in need of renovation.","Infrastructure"
+"Bharati Vidyapeeth College of Engineering","Some students feel that campus life at Bharati Vidyapeeth College of Engineering lacks vibrancy and engagement.","Campus Life"
+"Bharati Vidyapeeth College of Engineering","Limited industry exposure opportunities are available at Bharati Vidyapeeth College of Engineering, hindering students' practical learning experiences.","Industry Exposure"
+"Bharati Vidyapeeth College of Engineering","The curriculum at Bharati Vidyapeeth College of Engineering lacks relevance to current industry trends.","Curriculum"
+"Bharati Vidyapeeth College of Engineering","Many students have faced challenges in securing placements due to inadequate placement assistance provided by Bharati Vidyapeeth College of Engineering.","Placement"
+"Bharati Vidyapeeth College of Engineering","The internship opportunities offered by Bharati Vidyapeeth College of Engineering are limited and not diverse enough.","Internship Opportunities"
+"Bharati Vidyapeeth College of Engineering","Some extracurricular activities at Bharati Vidyapeeth College of Engineering are poorly organized and lack participation.","Extracurricular Activities"
+"Bharati Vidyapeeth College of Engineering","The accreditation status of Bharati Vidyapeeth College of Engineering has been questioned by some students.","Accreditation"
+"Bharati Vidyapeeth College of Engineering","Facilities at Bharati Vidyapeeth College of Engineering are inadequate, with several essential resources missing.","Facilities"
+"Bharati Vidyapeeth College of Engineering","The faculty at Bharati Vidyapeeth College of Engineering is knowledgeable but lacks effective teaching methods.","Faculty"
+"Bharati Vidyapeeth College of Engineering","Some students have faced difficulties in securing internships due to a lack of support from Bharati Vidyapeeth College of Engineering.","Internship Opportunities"
+"Bharati Vidyapeeth College of Engineering","Extracurricular activities at Bharati Vidyapeeth College of Engineering are limited and poorly managed.","Extracurricular Activities"
+"Bharati Vidyapeeth College of Engineering","Bharati Vidyapeeth College of Engineering lacks accreditation from recognized institutions.","Accreditation"
+"Bharati Vidyapeeth College of Engineering","The facilities at Bharati Vidyapeeth College of Engineering are outdated and insufficient for student needs.","Facilities"
+"Bharati Vidyapeeth College of Engineering","The faculty members at Bharati Vidyapeeth College of Engineering are approachable but lack expertise in their subjects.","Faculty"
+"Bharati Vidyapeeth College of Engineering","Many students have reported dissatisfaction with the placement support provided by Bharati Vidyapeeth College of Engineering.","Placements"
+"Bharati Vidyapeeth College of Engineering","The high fees charged by Bharati Vidyapeeth College of Engineering are not justified by the quality of education provided.","Fees"
+"Bharati Vidyapeeth College of Engineering","The campus infrastructure at Bharati Vidyapeeth College of Engineering is in need of significant improvement.","Infrastructure"
+"Bharati Vidyapeeth College of Engineering","Limited extracurricular activities are available at Bharati Vidyapeeth College of Engineering, limiting students' overall growth.","Extracurricular Activities"
+"Bharati Vidyapeeth College of Engineering","Industry exposure opportunities at Bharati Vidyapeeth College of Engineering are limited, impacting students' practical knowledge.","Industry Exposure"
+"Bharati Vidyapeeth College of Engineering","Some students feel that the curriculum at Bharati Vidyapeeth College of Engineering is outdated and does not align with industry requirements.","Curriculum"
+"Bharati Vidyapeeth College of Engineering","Placement assistance provided by Bharati Vidyapeeth College of Engineering is inadequate, leaving many students without job opportunities.","Placement"
+"Bharati Vidyapeeth College of Engineering","The internship opportunities offered by Bharati Vidyapeeth College of Engineering do not cover a wide range of industries, limiting students' exposure.","Internship Opportunities"
+"Bharati Vidyapeeth College of Engineering","Certain extracurricular activities at Bharati Vidyapeeth College of Engineering lack participation and fail to engage students effectively.","Extracurricular Activities"
+"Bharati Vidyapeeth College of Engineering","There are doubts among students regarding the accreditation status of Bharati Vidyapeeth College of Engineering, affecting the reputation of the institution.","Accreditation"
+"Bharati Vidyapeeth College of Engineering","Facilities at Bharati Vidyapeeth College of Engineering are insufficient and often lead to inconvenience for students.","Facilities"
+"Bharati Vidyapeeth College of Engineering","The faculty members at Bharati Vidyapeeth College of Engineering are highly knowledgeable and supportive.","Faculty"
+"Bharati Vidyapeeth College of Engineering","Placement opportunities at Bharati Vidyapeeth College of Engineering are commendable with a high success rate.","Placements"
+"Bharati Vidyapeeth College of Engineering","The fees structure at Bharati Vidyapeeth College of Engineering is reasonable and transparent.","Fees"
+"Bharati Vidyapeeth College of Engineering","The infrastructure at Bharati Vidyapeeth College of Engineering is modern and well-maintained.","Infrastructure"
+"Bharati Vidyapeeth College of Engineering","Campus life at Bharati Vidyapeeth College of Engineering is vibrant with various events and activities.","Campus Life"
+"Bharati Vidyapeeth College of Engineering","Industry exposure at Bharati Vidyapeeth College of Engineering is facilitated through internships and industrial visits.","Industry Exposure"
+"Bharati Vidyapeeth College of Engineering","The curriculum at Bharati Vidyapeeth College of Engineering is comprehensive and industry-relevant.","Curriculum"
+"Bharati Vidyapeeth College of Engineering","Placement assistance at Bharati Vidyapeeth College of Engineering is effective in securing job placements.","Placement"
+"Bharati Vidyapeeth College of Engineering","Internship opportunities at Bharati Vidyapeeth College of Engineering provide valuable industry experience.","Internship Opportunities"
+"Bharati Vidyapeeth College of Engineering","Extracurricular activities at Bharati Vidyapeeth College of Engineering are diverse and enriching.","Extracurricular Activities"
+"Bharati Vidyapeeth College of Engineering","Bharati Vidyapeeth College of Engineering is accredited by reputed organizations ensuring quality education.","Accreditation"
+"Bharati Vidyapeeth College of Engineering","Facilities at Bharati Vidyapeeth College of Engineering are modern and equipped with the latest technology.","Facilities"
+"Bharati Vidyapeeth College of Engineering","Some students find the faculty at Bharati Vidyapeeth College of Engineering to be helpful and approachable.","Faculty"
+"Bharati Vidyapeeth College of Engineering","Placement process at Bharati Vidyapeeth College of Engineering is systematic and well-organized.","Placements"
+"Bharati Vidyapeeth College of Engineering","The fees charged by Bharati Vidyapeeth College of Engineering are reasonable compared to other institutions.","Fees"
+"Bharati Vidyapeeth College of Engineering","The campus infrastructure at Bharati Vidyapeeth College of Engineering is well-maintained and modern.","Infrastructure"
+"Bharati Vidyapeeth College of Engineering","Students at Bharati Vidyapeeth College of Engineering engage in various extracurricular activities enhancing their overall development.","Extracurricular Activities"
+"Bharati Vidyapeeth College of Engineering","Bharati Vidyapeeth College of Engineering provides students with ample opportunities for industry exposure.","Industry Exposure"
+"Bharati Vidyapeeth College of Engineering","The curriculum at Bharati Vidyapeeth College of Engineering is designed to meet industry standards and requirements.","Curriculum"
+"Bharati Vidyapeeth College of Engineering","Placement assistance provided by Bharati Vidyapeeth College of Engineering is effective in securing internships and job placements.","Placement"
+"Bharati Vidyapeeth College of Engineering","Internship opportunities at Bharati Vidyapeeth College of Engineering are diverse and provide exposure to various industries.","Internship Opportunities"
+"Bharati Vidyapeeth College of Engineering","Extracurricular activities at Bharati Vidyapeeth College of Engineering cater to different interests and talents of students.","Extracurricular Activities"
+"Bharati Vidyapeeth College of Engineering","Bharati Vidyapeeth College of Engineering holds accreditation from reputed organizations ensuring quality education.","Accreditation"
+"Bharati Vidyapeeth College of Engineering","Facilities at Bharati Vidyapeeth College of Engineering are well-maintained and provide a conducive learning environment.","Facilities"
+"Bharati Vidyapeeth College of Engineering","Some faculty members at Bharati Vidyapeeth College of Engineering lack expertise in their respective fields.","Faculty"
+"Bharati Vidyapeeth College of Engineering","Several students have expressed dissatisfaction with the placement opportunities provided by Bharati Vidyapeeth College of Engineering.","Placements"
+"Bharati Vidyapeeth College of Engineering","The fees charged by Bharati Vidyapeeth College of Engineering are higher compared to the quality of education provided.","Fees"
+"Bharati Vidyapeeth College of Engineering","The infrastructure at Bharati Vidyapeeth College of Engineering is outdated and in need of renovation.","Infrastructure"
+"Bharati Vidyapeeth College of Engineering","Some students feel that campus life at Bharati Vidyapeeth College of Engineering lacks vibrancy and engagement.","Campus Life"
+"Bharati Vidyapeeth College of Engineering","Limited industry exposure opportunities are available at Bharati Vidyapeeth College of Engineering, hindering students' practical learning experiences.","Industry Exposure"
+"Bharati Vidyapeeth College of Engineering","The curriculum at Bharati Vidyapeeth College of Engineering lacks relevance to current industry trends.","Curriculum"
+"Bharati Vidyapeeth College of Engineering","Many students have faced challenges in securing placements due to inadequate placement assistance provided by Bharati Vidyapeeth College of Engineering.","Placement"
+"Bharati Vidyapeeth College of Engineering","The internship opportunities offered by Bharati Vidyapeeth College of Engineering are limited and not diverse enough.","Internship Opportunities"
+"Bharati Vidyapeeth College of Engineering","Some extracurricular activities at Bharati Vidyapeeth College of Engineering are poorly organized and lack participation.","Extracurricular Activities"
+"Bharati Vidyapeeth College of Engineering","The accreditation status of Bharati Vidyapeeth College of Engineering has been questioned by some students.","Accreditation"
+"Bharati Vidyapeeth College of Engineering","Facilities at Bharati Vidyapeeth College of Engineering are inadequate, with several essential resources missing.","Facilities"
+"Bharati Vidyapeeth College of Engineering","The faculty at Bharati Vidyapeeth College of Engineering is knowledgeable but lacks effective teaching methods.","Faculty"
+"Bharati Vidyapeeth College of Engineering","Some students have faced difficulties in securing internships due to a lack of support from Bharati Vidyapeeth College of Engineering.","Internship Opportunities"
+"Bharati Vidyapeeth College of Engineering","Extracurricular activities at Bharati Vidyapeeth College of Engineering are limited and poorly managed.","Extracurricular Activities"
+"Bharati Vidyapeeth College of Engineering","Bharati Vidyapeeth College of Engineering lacks accreditation from recognized institutions.","Accreditation"
+"Bharati Vidyapeeth College of Engineering","The facilities at Bharati Vidyapeeth College of Engineering are outdated and insufficient for student needs.","Facilities"
+"Bharati Vidyapeeth College of Engineering","The faculty members at Bharati Vidyapeeth College of Engineering are approachable but lack expertise in their subjects.","Faculty"
+"Bharati Vidyapeeth College of Engineering","Many students have reported dissatisfaction with the placement support provided by Bharati Vidyapeeth College of Engineering.","Placements"
+"Bharati Vidyapeeth College of Engineering","The high fees charged by Bharati Vidyapeeth College of Engineering are not justified by the quality of education provided.","Fees"
+"Bharati Vidyapeeth College of Engineering","The campus infrastructure at Bharati Vidyapeeth College of Engineering is in need of significant improvement.","Infrastructure"
+"Bharati Vidyapeeth College of Engineering","Limited extracurricular activities are available at Bharati Vidyapeeth College of Engineering, limiting students' overall growth.","Extracurricular Activities"
+"Bharati Vidyapeeth College of Engineering","Industry exposure opportunities at Bharati Vidyapeeth College of Engineering are limited, impacting students' practical knowledge.","Industry Exposure"
+"Bharati Vidyapeeth College of Engineering","Some students feel that the curriculum at Bharati Vidyapeeth College of Engineering is outdated and does not align with industry requirements.","Curriculum"
+"Bharati Vidyapeeth College of Engineering","Placement assistance provided by Bharati Vidyapeeth College of Engineering is inadequate, leaving many students without job opportunities.","Placement"
+"Bharati Vidyapeeth College of Engineering","The internship opportunities offered by Bharati Vidyapeeth College of Engineering do not cover a wide range of industries, limiting students' exposure.","Internship Opportunities"
+"Bharati Vidyapeeth College of Engineering","Certain extracurricular activities at Bharati Vidyapeeth College of Engineering lack participation and fail to engage students effectively.","Extracurricular Activities"
+"Bharati Vidyapeeth College of Engineering","There are doubts among students regarding the accreditation status of Bharati Vidyapeeth College of Engineering, affecting the reputation of the institution.","Accreditation"
+"Bharati Vidyapeeth College of Engineering","Facilities at Bharati Vidyapeeth College of Engineering are insufficient and often lead to inconvenience for students.","Facilities"
+"Shri Ramdeobaba College of Engineering and Management","The faculty at Shri Ramdeobaba College of Engineering and Management is very knowledgeable and supportive.","Faculty"
+"Shri Ramdeobaba College of Engineering and Management","The placement cell at Shri Ramdeobaba College of Engineering and Management provides excellent career opportunities.","Placements"
+"Shri Ramdeobaba College of Engineering and Management","The fees structure at Shri Ramdeobaba College of Engineering and Management is reasonable compared to other colleges.","Fees"
+"Shri Ramdeobaba College of Engineering and Management","The infrastructure of Shri Ramdeobaba College of Engineering and Management is modern and well-maintained.","Infrastructure"
+"Shri Ramdeobaba College of Engineering and Management","Campus life at Shri Ramdeobaba College of Engineering and Management is vibrant and full of activities.","Campus Life"
+"Shri Ramdeobaba College of Engineering and Management","Students at Shri Ramdeobaba College of Engineering and Management get ample exposure to various industries through internships and seminars.","Industry Exposure"
+"Shri Ramdeobaba College of Engineering and Management","The curriculum at Shri Ramdeobaba College of Engineering and Management is well-structured and up-to-date with industry standards.","Curriculum"
+"Shri Ramdeobaba College of Engineering and Management","Placement assistance at Shri Ramdeobaba College of Engineering and Management is effective, helping students secure good job opportunities.","Placement"
+"Shri Ramdeobaba College of Engineering and Management","Internship opportunities at Shri Ramdeobaba College of Engineering and Management are diverse and provide valuable practical experience.","Internship Opportunities"
+"Shri Ramdeobaba College of Engineering and Management","Extracurricular activities at Shri Ramdeobaba College of Engineering and Management play a significant role in holistic development.","Extracurricular Activities"
+"Shri Ramdeobaba College of Engineering and Management","Shri Ramdeobaba College of Engineering and Management is accredited by reputed organizations, ensuring quality education.","Accreditation"
+"Shri Ramdeobaba College of Engineering and Management","Facilities at Shri Ramdeobaba College of Engineering and Management are top-notch, providing students with a conducive learning environment.","Facilities"
+"Shri Ramdeobaba College of Engineering and Management","Some students find the faculty to be helpful and approachable, while others feel they lack expertise in certain subjects.","Faculty"
+"Shri Ramdeobaba College of Engineering and Management","Placement process at Shri Ramdeobaba College of Engineering and Management is well-organized and transparent, according to some students.","Placements"
+"Shri Ramdeobaba College of Engineering and Management","The fees charged by Shri Ramdeobaba College of Engineering and Management are affordable for the quality of education provided, as per student opinions.","Fees"
+"Shri Ramdeobaba College of Engineering and Management","The campus infrastructure at Shri Ramdeobaba College of Engineering and Management is well-equipped but lacks proper maintenance, according to some students.","Infrastructure"
+"Shri Ramdeobaba College of Engineering and Management","Campus life at Shri Ramdeobaba College of Engineering and Management is lively, but some students feel it lacks inclusivity.","Campus Life"
+"Shri Ramdeobaba College of Engineering and Management","Students appreciate the industry exposure provided by Shri Ramdeobaba College of Engineering and Management through guest lectures and industrial visits.","Industry Exposure"
+"Shri Ramdeobaba College of Engineering and Management","The curriculum at Shri Ramdeobaba College of Engineering and Management is rigorous, but some students find it outdated and not aligned with current industry trends.","Curriculum"
+"Shri Ramdeobaba College of Engineering and Management","Placement support services at Shri Ramdeobaba College of Engineering and Management are helpful, although some students feel they could be improved.","Placement"
+"Shri Ramdeobaba College of Engineering and Management","Internship opportunities offered by Shri Ramdeobaba College of Engineering and Management are diverse, but some students struggle to find suitable placements.","Internship Opportunities"
+"Shri Ramdeobaba College of Engineering and Management","Extracurricular activities at Shri Ramdeobaba College of Engineering and Management are numerous, but some students feel they lack proper organization.","Extracurricular Activities"
+"Shri Ramdeobaba College of Engineering and Management","Shri Ramdeobaba College of Engineering and Management boasts accreditation from reputed organizations, but some students question the transparency of the process.","Accreditation"
+"Shri Ramdeobaba College of Engineering and Management","Facilities provided by Shri Ramdeobaba College of Engineering and Management are adequate, but some students feel certain amenities could be improved.","Facilities"
+"Shri Ramdeobaba College of Engineering and Management","Faculty members at Shri Ramdeobaba College of Engineering and Management are approachable and knowledgeable, according to student feedback.","Faculty"
+"Shri Ramdeobaba College of Engineering and Management","The placement cell at Shri Ramdeobaba College of Engineering and Management provides personalized attention to each student, resulting in high placement rates.","Placements"
+"Shri Ramdeobaba College of Engineering and Management","The fees charged by Shri Ramdeobaba College of Engineering and Management are reasonable, considering the facilities and infrastructure provided.","Fees"
+"Shri Ramdeobaba College of Engineering and Management","The campus infrastructure at Shri Ramdeobaba College of Engineering and Management is well-maintained and conducive to learning.","Infrastructure"
+"Shri Ramdeobaba College of Engineering and Management","Campus life at Shri Ramdeobaba College of Engineering and Management is vibrant, with a wide range of cultural and sports activities.","Campus Life"
+"Shri Ramdeobaba College of Engineering and Management","Students at Shri Ramdeobaba College of Engineering and Management benefit from industry exposure programs, enhancing their practical knowledge.","Industry Exposure"
+"Shri Ramdeobaba College of Engineering and Management","The curriculum at Shri Ramdeobaba College of Engineering and Management is comprehensive and covers the latest developments in the field.","Curriculum"
+"Shri Ramdeobaba College of Engineering and Management","Placement assistance at Shri Ramdeobaba College of Engineering and Management is effective, with dedicated support from the placement cell.","Placement"
+"Shri Ramdeobaba College of Engineering and Management","Internship opportunities at Shri Ramdeobaba College of Engineering and Management are abundant, allowing students to gain valuable work experience.","Internship Opportunities"
+"Shri Ramdeobaba College of Engineering and Management","Extracurricular activities at Shri Ramdeobaba College of Engineering and Management cater to diverse interests, providing students with ample opportunities for growth.","Extracurricular Activities"
+"Shri Ramdeobaba College of Engineering and Management","Shri Ramdeobaba College of Engineering and Management is recognized for its quality education and holds accreditation from reputed institutions.","Accreditation"
+"Shri Ramdeobaba College of Engineering and Management","Facilities at Shri Ramdeobaba College of Engineering and Management are well-maintained and contribute to a conducive learning environment.","Facilities"
+"Shri Ramdeobaba College of Engineering and Management","While some faculty members at Shri Ramdeobaba College of Engineering and Management are excellent, others lack proficiency in their subjects, according to student reviews.","Faculty"
+"Shri Ramdeobaba College of Engineering and Management","Placement opportunities at Shri Ramdeobaba College of Engineering and Management are abundant, but some students feel the need for better company tie-ups.","Placements"
+"Shri Ramdeobaba College of Engineering and Management","The fees charged by Shri Ramdeobaba College of Engineering and Management are on the higher side compared to similar colleges.","Fees"
+"Shri Ramdeobaba College of Engineering and Management","The campus infrastructure at Shri Ramdeobaba College of Engineering and Management needs improvement in terms of facilities like laboratories and libraries.","Infrastructure"
+"Shri Ramdeobaba College of Engineering and Management","Campus life at Shri Ramdeobaba College of Engineering and Management is lively, but some students feel the need for more cultural events.","Campus Life"
+"Shri Ramdeobaba College of Engineering and Management","Students at Shri Ramdeobaba College of Engineering and Management appreciate the industry interactions and guest lectures conducted by the college.","Industry Exposure"
+"Shri Ramdeobaba College of Engineering and Management","The curriculum at Shri Ramdeobaba College of Engineering and Management is comprehensive, but some students feel it lacks practical exposure.","Curriculum"
+"Shri Ramdeobaba College of Engineering and Management","Placement support services at Shri Ramdeobaba College of Engineering and Management are satisfactory, but improvements can be made.","Placement"
+"Shri Ramdeobaba College of Engineering and Management","Internship opportunities at Shri Ramdeobaba College of Engineering and Management are diverse, but some students face challenges in securing internships.","Internship Opportunities"
+"Shri Ramdeobaba College of Engineering and Management","Extracurricular activities at Shri Ramdeobaba College of Engineering and Management are engaging, but there is a need for more variety.","Extracurricular Activities"
+"Shri Ramdeobaba College of Engineering and Management","Shri Ramdeobaba College of Engineering and Management is accredited, but some students question the credibility of the accrediting body.","Accreditation"
+"Shri Ramdeobaba College of Engineering and Management","Facilities at Shri Ramdeobaba College of Engineering and Management are satisfactory, but there is room for improvement.","Facilities"
+"Shri Ramdeobaba College of Engineering and Management","Faculty members at Shri Ramdeobaba College of Engineering and Management are knowledgeable, but some students find it challenging to approach them for doubts.","Faculty"
+"Shri Ramdeobaba College of Engineering and Management","Some students have secured excellent placements through the placement cell at Shri Ramdeobaba College of Engineering and Management.","Placements"
+"Shri Ramdeobaba College of Engineering and Management","The fees charged by Shri Ramdeobaba College of Engineering and Management are justified by the quality of education provided, according to student feedback.","Fees"
+"Shri Ramdeobaba College of Engineering and Management","The campus infrastructure at Shri Ramdeobaba College of Engineering and Management is well-equipped with modern amenities.","Infrastructure"
+"Shri Ramdeobaba College of Engineering and Management","Campus life at Shri Ramdeobaba College of Engineering and Management is dynamic, with various clubs and events for students.","Campus Life"
+"Shri Ramdeobaba College of Engineering and Management","Students at Shri Ramdeobaba College of Engineering and Management benefit from industry visits and guest lectures organized by the college.","Industry Exposure"
+"Shri Ramdeobaba College of Engineering and Management","The curriculum at Shri Ramdeobaba College of Engineering and Management is comprehensive and prepares students for real-world challenges.","Curriculum"
+"Shri Ramdeobaba College of Engineering and Management","Placement assistance at Shri Ramdeobaba College of Engineering and Management is effective, with personalized guidance for students.","Placement"
+"Shri Ramdeobaba College of Engineering and Management","Internship opportunities at Shri Ramdeobaba College of Engineering and Management are diverse, catering to different interests and career paths.","Internship Opportunities"
+"Shri Ramdeobaba College of Engineering and Management","Extracurricular activities at Shri Ramdeobaba College of Engineering and Management foster holistic development among students.","Extracurricular Activities"
+"Shri Ramdeobaba College of Engineering and Management","Shri Ramdeobaba College of Engineering and Management is accredited by reputed organizations, ensuring the quality of education provided.","Accreditation"
+"Shri Ramdeobaba College of Engineering and Management","Facilities at Shri Ramdeobaba College of Engineering and Management meet the needs of students and provide a comfortable learning environment.","Facilities"
+"Shri Ramdeobaba College of Engineering and Management","Faculty members at Shri Ramdeobaba College of Engineering and Management are experienced professionals, but some students feel the need for more interactive sessions.","Faculty"
+"Shri Ramdeobaba College of Engineering and Management","The placement process at Shri Ramdeobaba College of Engineering and Management is smooth, but some students feel the need for better pre-placement training.","Placements"
+"Shri Ramdeobaba College of Engineering and Management","The fees charged by Shri Ramdeobaba College of Engineering and Management are affordable, considering the facilities and resources provided.","Fees"
+"Shri Ramdeobaba College of Engineering and Management","The campus infrastructure at Shri Ramdeobaba College of Engineering and Management is well-maintained and conducive to learning.","Infrastructure"
+"Shri Ramdeobaba College of Engineering and Management","Campus life at Shri Ramdeobaba College of Engineering and Management is vibrant, with various cultural and technical events throughout the year.","Campus Life"
+"Shri Ramdeobaba College of Engineering and Management","Students at Shri Ramdeobaba College of Engineering and Management gain practical exposure through internships and industrial visits, enhancing their skills.","Industry Exposure"
+"Shri Ramdeobaba College of Engineering and Management","The curriculum at Shri Ramdeobaba College of Engineering and Management is updated regularly to meet industry standards and emerging technologies.","Curriculum"
+"Shri Ramdeobaba College of Engineering and Management","Placement assistance at Shri Ramdeobaba College of Engineering and Management is effective in securing job opportunities for students.","Placement"
+"Shri Ramdeobaba College of Engineering and Management","Internship opportunities at Shri Ramdeobaba College of Engineering and Management are extensive, offering exposure to various sectors.","Internship Opportunities"
+"Shri Ramdeobaba College of Engineering and Management","Extracurricular activities at Shri Ramdeobaba College of Engineering and Management provide a platform for students to showcase their talents and skills.","Extracurricular Activities"
+"Shri Ramdeobaba College of Engineering and Management","Shri Ramdeobaba College of Engineering and Management holds accreditation from recognized bodies, ensuring the quality of education imparted to students.","Accreditation"
+"Shri Ramdeobaba College of Engineering and Management","Facilities at Shri Ramdeobaba College of Engineering and Management are well-maintained and cater to the needs of students from diverse backgrounds.","Facilities"
+"Shri Ramdeobaba College of Engineering and Management","Faculty members at Shri Ramdeobaba College of Engineering and Management are experienced professionals who provide valuable insights to students.","Faculty"
+"Shri Ramdeobaba College of Engineering and Management","The placement cell at Shri Ramdeobaba College of Engineering and Management is proactive in organizing placement drives and inviting reputed companies.","Placements"
+"Shri Ramdeobaba College of Engineering and Management","The fees structure at Shri Ramdeobaba College of Engineering and Management is transparent, with no hidden charges.","Fees"
+"Shri Ramdeobaba College of Engineering and Management","The campus infrastructure at Shri Ramdeobaba College of Engineering and Management is well-equipped with modern facilities.","Infrastructure"
+"Shri Ramdeobaba College of Engineering and Management","Campus life at Shri Ramdeobaba College of Engineering and Management is lively, with various cultural and sports events.","Campus Life"
+"Shri Ramdeobaba College of Engineering and Management","Students at Shri Ramdeobaba College of Engineering and Management benefit from industry collaborations, internships, and live projects.","Industry Exposure"
+"Shri Ramdeobaba College of Engineering and Management","The curriculum at Shri Ramdeobaba College of Engineering and Management is designed to enhance students' practical skills and problem-solving abilities.","Curriculum"
+"Shri Ramdeobaba College of Engineering and Management","Placement assistance at Shri Ramdeobaba College of Engineering and Management is personalized, focusing on the individual needs and aspirations of students.","Placement"
+"Shri Ramdeobaba College of Engineering and Management","Internship opportunities at Shri Ramdeobaba College of Engineering and Management are diverse, allowing students to explore different domains.","Internship Opportunities"
+"Shri Ramdeobaba College of Engineering and Management","Extracurricular activities at Shri Ramdeobaba College of Engineering and Management foster leadership qualities and teamwork among students.","Extracurricular Activities"
+"Shri Ramdeobaba College of Engineering and Management","Shri Ramdeobaba College of Engineering and Management is accredited by recognized bodies, ensuring the quality of education delivered to students.","Accreditation"
+"Shri Ramdeobaba College of Engineering and Management","Facilities at Shri Ramdeobaba College of Engineering and Management are modern and well-maintained, creating a conducive learning environment.","Facilities"
+"Shri Ramdeobaba College of Engineering and Management","Faculty members at Shri Ramdeobaba College of Engineering and Management are supportive and guide students throughout their academic journey.","Faculty"
+"Shri Ramdeobaba College of Engineering and Management","The placement cell at Shri Ramdeobaba College of Engineering and Management provides excellent career guidance and support to students.","Placements"
+"Shri Ramdeobaba College of Engineering and Management","The fees charged by Shri Ramdeobaba College of Engineering and Management are reasonable considering the quality of education and facilities provided.","Fees"
+"Shri Ramdeobaba College of Engineering and Management","The campus infrastructure at Shri Ramdeobaba College of Engineering and Management is well-maintained with modern amenities.","Infrastructure"
+"Shri Ramdeobaba College of Engineering and Management","Campus life at Shri Ramdeobaba College of Engineering and Management is vibrant, with numerous events and activities throughout the year.","Campus Life"
+"Shri Ramdeobaba College of Engineering and Management","Students at Shri Ramdeobaba College of Engineering and Management benefit from industry interactions and practical learning experiences.","Industry Exposure"
+"Shri Ramdeobaba College of Engineering and Management","The curriculum at Shri Ramdeobaba College of Engineering and Management is industry-oriented and designed to meet the evolving needs of the market.","Curriculum"
+"Shri Ramdeobaba College of Engineering and Management","Placement assistance at Shri Ramdeobaba College of Engineering and Management is effective, with a high placement percentage.","Placement"
+"Shri Ramdeobaba College of Engineering and Management","Internship opportunities at Shri Ramdeobaba College of Engineering and Management are diverse, catering to different interests and career goals.","Internship Opportunities"
+"Shri Ramdeobaba College of Engineering and Management","Extracurricular activities at Shri Ramdeobaba College of Engineering and Management are well-organized and provide a platform for students to showcase their talents.","Extracurricular Activities"
+"Shri Ramdeobaba College of Engineering and Management","Shri Ramdeobaba College of Engineering and Management holds accreditation from reputed bodies, ensuring the quality of education imparted to students.","Accreditation"
+"Shri Ramdeobaba College of Engineering and Management","Facilities at Shri Ramdeobaba College of Engineering and Management are modern and well-equipped, providing students with a comfortable learning environment.","Facilities"
+"Shri Ramdeobaba College of Engineering and Management","Faculty members at Shri Ramdeobaba College of Engineering and Management are experienced professionals who provide valuable guidance to students.","Faculty"
+"K. J. Somaiya College of Engineering, Mumbai","The faculty members at K. J. Somaiya College of Engineering are very supportive and knowledgeable.","Faculty"
+"K. J. Somaiya College of Engineering, Mumbai","The placement opportunities at K. J. Somaiya College of Engineering are excellent, with many students securing jobs in top companies.","Placements"
+"K. J. Somaiya College of Engineering, Mumbai","The fees structure at K. J. Somaiya College of Engineering is reasonable and affordable for students from diverse backgrounds.","Fees"
+"K. J. Somaiya College of Engineering, Mumbai","The infrastructure of K. J. Somaiya College of Engineering is modern and well-maintained, providing a conducive environment for learning.","Infrastructure"
+"K. J. Somaiya College of Engineering, Mumbai","Campus life at K. J. Somaiya College of Engineering is vibrant and dynamic, with numerous cultural and sports activities.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","Students at K. J. Somaiya College of Engineering have ample opportunities for industry exposure through internships and projects.","Industry Exposure"
+"K. J. Somaiya College of Engineering, Mumbai","The curriculum at K. J. Somaiya College of Engineering is designed to meet industry standards and equip students with relevant skills.","Curriculum"
+"K. J. Somaiya College of Engineering, Mumbai","The placement cell at K. J. Somaiya College of Engineering provides excellent support and guidance to students.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","Internship opportunities at K. J. Somaiya College of Engineering are diverse, allowing students to gain practical experience in their field of study.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","Extracurricular activities at K. J. Somaiya College of Engineering play a crucial role in the holistic development of students.","Extracurricular Activities"
+"K. J. Somaiya College of Engineering, Mumbai","K. J. Somaiya College of Engineering is accredited by recognized institutions, ensuring the quality of education provided to students.","Accreditation"
+"K. J. Somaiya College of Engineering, Mumbai","Facilities at K. J. Somaiya College of Engineering are top-notch, with well-equipped labs, libraries, and recreational areas.","Facilities"
+"K. J. Somaiya College of Engineering, Mumbai","Some students have praised the faculty for their dedication and commitment to student learning.","Faculty"
+"K. J. Somaiya College of Engineering, Mumbai","Placement drives at K. J. Somaiya College of Engineering attract top companies, offering lucrative job opportunities to students.","Placements"
+"K. J. Somaiya College of Engineering, Mumbai","The fee structure at K. J. Somaiya College of Engineering is transparent and reasonable compared to other colleges in Mumbai.","Fees"
+"K. J. Somaiya College of Engineering, Mumbai","The campus infrastructure at K. J. Somaiya College of Engineering is well-maintained, providing a comfortable environment for students.","Infrastructure"
+"K. J. Somaiya College of Engineering, Mumbai","Students at K. J. Somaiya College of Engineering actively participate in various cultural and technical events organized on campus.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","Industry tie-ups at K. J. Somaiya College of Engineering provide students with real-world exposure and practical knowledge.","Industry Exposure"
+"K. J. Somaiya College of Engineering, Mumbai","The curriculum at K. J. Somaiya College of Engineering is regularly updated to keep pace with industry trends and demands.","Curriculum"
+"K. J. Somaiya College of Engineering, Mumbai","The placement process at K. J. Somaiya College of Engineering is transparent and fair, ensuring equal opportunities for all students.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","Internship opportunities at K. J. Somaiya College of Engineering are available in various sectors, allowing students to explore their interests.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","Extracurricular activities at K. J. Somaiya College of Engineering encourage student creativity and innovation.","Extracurricular Activities"
+"K. J. Somaiya College of Engineering, Mumbai","K. J. Somaiya College of Engineering has received accreditation from reputable agencies, reflecting its commitment to academic excellence.","Accreditation"
+"K. J. Somaiya College of Engineering, Mumbai","The college provides state-of-the-art facilities to students, including well-equipped labs and modern classrooms.","Facilities"
+"K. J. Somaiya College of Engineering, Mumbai","Faculty members at K. J. Somaiya College of Engineering are experienced professionals who are dedicated to their students' success.","Faculty"
+"K. J. Somaiya College of Engineering, Mumbai","Many students have secured internships and job offers through the placement cell at K. J. Somaiya College of Engineering.","Placements"
+"K. J. Somaiya College of Engineering, Mumbai","The college offers scholarships and financial aid to deserving students to ensure access to quality education.","Fees"
+"K. J. Somaiya College of Engineering, Mumbai","The college campus is equipped with modern facilities, including Wi-Fi connectivity and sports facilities.","Infrastructure"
+"K. J. Somaiya College of Engineering, Mumbai","Students at K. J. Somaiya College of Engineering enjoy a vibrant campus life with various clubs and activities.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","The college has strong industry connections, providing students with internship and job opportunities.","Industry Exposure"
+"K. J. Somaiya College of Engineering, Mumbai","The curriculum at K. J. Somaiya College of Engineering is designed to meet the evolving needs of the industry.","Curriculum"
+"K. J. Somaiya College of Engineering, Mumbai","Placement assistance at K. J. Somaiya College of Engineering is tailored to individual student needs, ensuring a successful career transition.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","Internship opportunities at K. J. Somaiya College of Engineering offer hands-on experience in real-world settings.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","Extracurricular activities at K. J. Somaiya College of Engineering foster teamwork and leadership skills among students.","Extracurricular Activities"
+"K. J. Somaiya College of Engineering, Mumbai","K. J. Somaiya College of Engineering is accredited by recognized bodies, ensuring the quality of education provided to students.","Accreditation"
+"K. J. Somaiya College of Engineering, Mumbai","The college provides excellent facilities, including well-equipped laboratories and a modern campus.","Facilities"
+"K. J. Somaiya College of Engineering, Mumbai","Faculty members at K. J. Somaiya College of Engineering are approachable and supportive, guiding students throughout their academic journey.","Faculty"
+"K. J. Somaiya College of Engineering, Mumbai","Placement opportunities at K. J. Somaiya College of Engineering are diverse, catering to the varied interests and career aspirations of students.","Placements"
+"K. J. Somaiya College of Engineering, Mumbai","The college offers various scholarships and financial assistance programs to help students pursue their education.","Fees"
+"K. J. Somaiya College of Engineering, Mumbai","The campus infrastructure at K. J. Somaiya College of Engineering is modern and equipped with state-of-the-art facilities.","Infrastructure"
+"K. J. Somaiya College of Engineering, Mumbai","Students at K. J. Somaiya College of Engineering actively participate in extracurricular activities, enhancing their overall development.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","Industry exposure initiatives at K. J. Somaiya College of Engineering provide students with practical insights and experiences.","Industry Exposure"
+"K. J. Somaiya College of Engineering, Mumbai","The curriculum at K. J. Somaiya College of Engineering is designed to be industry-relevant and application-oriented.","Curriculum"
+"K. J. Somaiya College of Engineering, Mumbai","The placement cell at K. J. Somaiya College of Engineering offers personalized career guidance and support to students.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","Internship opportunities at K. J. Somaiya College of Engineering allow students to apply theoretical knowledge in real-world settings.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","Extracurricular activities at K. J. Somaiya College of Engineering promote holistic development and encourage students to explore their interests.","Extracurricular Activities"
+"K. J. Somaiya College of Engineering, Mumbai","K. J. Somaiya College of Engineering is recognized for its academic excellence and has earned accreditation from prestigious organizations.","Accreditation"
+"K. J. Somaiya College of Engineering, Mumbai","Facilities at K. J. Somaiya College of Engineering are modern and cater to the diverse needs of students.","Facilities"
+"K. J. Somaiya College of Engineering, Mumbai","The placement opportunities at K. J. Somaiya College of Engineering are excellent, with many students securing jobs in top companies.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","I am disappointed with the placement support provided by the college. Many students struggle to find suitable job offers.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","The placement cell at K. J. Somaiya College of Engineering needs improvement. Students need more guidance and support.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","The placement process at K. J. Somaiya College of Engineering is transparent and fair, ensuring equal opportunities for all students.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","The placement assistance provided by the college is average. Some students get good offers, while others struggle.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","I am satisfied with the placement support offered by the college. The placement cell works tirelessly to ensure students' success.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","The college needs to improve its placement record. Many students are left without job offers even after graduation.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","The placement opportunities at K. J. Somaiya College of Engineering are satisfactory. However, there is room for improvement.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","I appreciate the efforts of the placement cell in securing job offers for students. The process is well-organized and efficient.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","The college provides excellent placement support to students. Many top companies visit the campus for recruitment.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","The placement cell needs to work on bringing more companies to the campus. Many students miss out on good opportunities.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","I am impressed with the placement opportunities provided by the college. The placement cell ensures that students get placed in reputed companies.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","The placement process at K. J. Somaiya College of Engineering is disappointing. Many students are left without job offers.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","The college needs to invest more in placement training and support. Students need better preparation for interviews and placements.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","I am satisfied with the placement support provided by the college. The placement cell offers personalized assistance to students.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","The placement opportunities at K. J. Somaiya College of Engineering are excellent. The college has a good track record of placements.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","The placement cell needs to improve its coordination with companies. Many students miss out on job opportunities due to lack of communication.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","I am happy with the placement assistance provided by the college. The placement cell helps students at every step of the recruitment process.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","The college needs to focus more on placement training and skill development. Many students struggle during campus placements.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","I am dissatisfied with the placement opportunities provided by the college. The placement cell needs to work harder to secure job offers for students.","Placement"
+"K. J. Somaiya College of Engineering, Mumbai","Campus life at K. J. Somaiya College of Engineering is vibrant and dynamic, with numerous cultural and sports activities.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","I feel disconnected from campus life at K. J. Somaiya College of Engineering. There are limited opportunities for extracurricular activities.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","The campus life at K. J. Somaiya College of Engineering is average. There is not much happening outside of academics.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","I enjoy the lively atmosphere of campus life at K. J. Somaiya College of Engineering. There are plenty of events and clubs to participate in.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","The campus life is dull and uneventful at K. J. Somaiya College of Engineering. There is little to no student engagement outside of classes.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","I love the vibrant campus life at K. J. Somaiya College of Engineering. There is always something exciting happening on campus.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","The campus life is disappointing at K. J. Somaiya College of Engineering. There are limited facilities and activities for students.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","I am satisfied with the campus life at K. J. Somaiya College of Engineering. The college provides various opportunities for students to explore their interests outside of academics.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","The campus life is vibrant and engaging at K. J. Somaiya College of Engineering. There are numerous clubs and societies to join.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","I find the campus life at K. J. Somaiya College of Engineering to be average. While there are some activities, there could be more opportunities for student interaction.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","The campus life at K. J. Somaiya College of Engineering is enjoyable. There are many events and activities to participate in, enhancing the overall college experience.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","I am disappointed with the campus life at K. J. Somaiya College of Engineering. There are limited facilities and resources for students outside of academics.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","The campus life is vibrant and diverse at K. J. Somaiya College of Engineering. There are plenty of opportunities for students to engage in extracurricular activities.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","I am indifferent towards the campus life at K. J. Somaiya College of Engineering. While there are some activities, there could be more opportunities for student engagement.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","The campus life is enriching and fulfilling at K. J. Somaiya College of Engineering. There are plenty of opportunities for students to learn and grow outside of the classroom.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","I am satisfied with the campus life at K. J. Somaiya College of Engineering. The college provides a supportive environment for students to pursue their interests.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","The campus life at K. J. Somaiya College of Engineering is vibrant and exciting. There are numerous cultural events and activities that keep students engaged.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","I find the campus life at K. J. Somaiya College of Engineering to be satisfactory. While there are some opportunities for student engagement, there is room for improvement.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","The campus life is lively and engaging at K. J. Somaiya College of Engineering. There are plenty of opportunities for students to participate in extracurricular activities.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","I am dissatisfied with the campus life at K. J. Somaiya College of Engineering. There are limited opportunities for students to socialize and engage in extracurricular activities.","Campus Life"
+"K. J. Somaiya College of Engineering, Mumbai","Internship opportunities at K. J. Somaiya College of Engineering allow students to gain practical experience in real-world settings.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","I am disappointed with the internship opportunities provided by the college. Many students struggle to find suitable internships.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","The internship opportunities at K. J. Somaiya College of Engineering are satisfactory. However, there is room for improvement in terms of variety and quality.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","The internship opportunities provided by the college are excellent. Many students secure internships in reputed companies.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","I find the internship opportunities at K. J. Somaiya College of Engineering to be average. There could be more options available for students from different fields of study.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","I am satisfied with the internship opportunities offered by the college. The internship cell provides support and guidance to students throughout the process.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","The internship opportunities at K. J. Somaiya College of Engineering are diverse and valuable. Students get exposure to various industries and roles.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","I am dissatisfied with the internship opportunities provided by the college. The internship cell needs to work harder to secure internships for students.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","The internship opportunities at K. J. Somaiya College of Engineering are limited. The college should focus on expanding its network of industry partners.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","I am happy with the internship opportunities provided by the college. The internship cell offers support and guidance to students, helping them secure valuable internships.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","The internship opportunities provided by the college are satisfactory. However, there is room for improvement in terms of the application process and support provided to students.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","I am impressed with the internship opportunities available at K. J. Somaiya College of Engineering. The college has strong industry connections, providing students with valuable experiences.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","The internship opportunities at K. J. Somaiya College of Engineering are satisfactory. The college should focus on enhancing the quality of internships offered to students.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","I am dissatisfied with the internship opportunities provided by the college. Many students struggle to secure internships in their preferred companies.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","The internship opportunities at K. J. Somaiya College of Engineering are average. The college should work on providing more industry-relevant internships to students.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","I am satisfied with the internship opportunities provided by the college. The internship cell provides valuable support and guidance to students.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","The internship opportunities at K. J. Somaiya College of Engineering are diverse and enriching. Students get exposure to different sectors and gain valuable experience.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","I am indifferent towards the internship opportunities provided by the college. While there are some options available, more could be done to cater to the diverse needs of students.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","The internship opportunities at K. J. Somaiya College of Engineering are satisfactory. However, there is a need for more support and guidance from the college.","Internship Opportunities"
+"K. J. Somaiya College of Engineering, Mumbai","I am dissatisfied with the internship opportunities provided by the college. Many students struggle to secure internships that align with their career goals.","Internship Opportunities"

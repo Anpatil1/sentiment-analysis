@@ -31,10 +31,10 @@ db.commit()
 
 df = pd.read_csv('engineering_colleges_reviews.csv')
 
-with open('model.pkl', 'rb') as model_file:
+with open('svm_model.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
-with open('vector.pkl', 'rb') as vector_file:
+with open('vectorizer.pkl', 'rb') as vector_file:
     vectorizer = pickle.load(vector_file)
 
 plt.switch_backend('agg')

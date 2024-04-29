@@ -14,6 +14,12 @@ def perform_sentiment_analysis(df):
     # Initialize the VADER sentiment intensity analyzer
     sid = SentimentIntensityAnalyzer()
 
+    # Handle missing values in the 'Review' column
+    df['Review'] = df['Review'].fillna('')  # Replace missing values with empty strings
+
+    # Handle NaN values in the DataFrame
+    df.fillna('', inplace=True)
+
     # Perform sentiment analysis on each review and add sentiment scores to the DataFrame
     df['compound'] = df['Review'].apply(lambda x: sid.polarity_scores(x)['compound'])
     df['neg'] = df['Review'].apply(lambda x: sid.polarity_scores(x)['neg'])
@@ -39,7 +45,7 @@ def plot_sentiment_distribution(df_result):
 
 def main():
     # Load your dataset into a Pandas DataFrame
-    # Update 'your_dataset.csv' with the actual file path
+    # Update 'engineering_colleges_reviews.csv' with the actual file path
     df = pd.read_csv('engineering_colleges_reviews.csv')
 
     # Perform sentiment analysis
