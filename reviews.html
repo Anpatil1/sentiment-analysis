@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Reviews</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+    body {
+        background: linear-gradient(135deg, #FFA500, #FF0000, #FFFF00);
+    }
+    .page-header {
+        text-align: center;
+        margin-bottom: 50px;
+        background: linear-gradient(135deg, #FFA500, #FF0000, #FFFF00);
+        padding: 20px; /* Adjust padding as needed */
+        border-radius: 10px; /* Rounded corners */
+    }
+        
+
+        .search-container {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .search-box {
+            width: 200px;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .card {
+            border: 2px solid #333;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            font-size: 16px;
+            color: #333;
+        }
+
+        .table-bordered {
+            border: 2px solid #333;
+            border-collapse: separate;
+            border-spacing: 0 15px;
+        }
+
+        th,
+        td {
+            vertical-align: middle !important;
+        }
+
+        .card-bg {
+            background-color: #f8f9fa; /* Light gray background color */
+            border-radius: 10px; /* Rounded corners */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h1 class="mt-5">College Reviews</h1>
+            <div class="search-container">
+                <input type="text" class="search-box" id="searchInput" placeholder="Search colleges..." onkeyup="searchColleges()">
+            </div>
+        </div>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>College Name</th>
+                    <th>Keyword</th>
+                    <th>Review</th>
+                    <th>Sentiment</th>
+                </tr>
+            </thead>
+            <tbody id="collegeTableBody">
+                {% for review in reviews_data %}
+                <tr>
+                    <td>{{ review[0] }}</td>
+                    <td>{{ review[1] }}</td>
+                    <td>
+                        <div class="card card-bg">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ review[0] }}</h5>
+                                <p class="card-text">{{ review[2] }}</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>{{ review[3] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function searchColleges() {
+            var input, filter, table, tbody, tr, td, i, txtValue;
+            input = document.getElementById("searchInput");
+            filter = input.value.toUpperCase();
+            table = document.querySelector(".table");
+            tbody = document.getElementById("collegeTableBody");
+            tr = tbody.getElementsByTagName("tr");
+
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0]; // Change index to match column you want to search
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis Result</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding-bottom: 100px;
+            background: linear-gradient(to right, #343a40, #007bff); /* Updated background */
+            color: #495057;
+        }
+
+        .navbar {
+            background: linear-gradient(to right, #343a40, #007bff);
+            height: 70px;
+            border-bottom: 2px solid #fff;
+        }
+
+        .navbar-toggler {
+            display: block;
+            background-color: #007bff;
+        }
+
+        .navbar-toggler-icon {
+            cursor: pointer;
+        }
+
+        .navbar-toggler-icon::before,
+        .navbar-toggler-icon::after {
+            content: '\00a0';
+            display: block;
+            height: 2px;
+            width: 30px;
+            background-color: #fff;
+            margin: 6px 0;
+        }
+
+        .navbar-collapse {
+            display: none;
+        }
+
+        .navbar-collapse.show {
+            display: flex;
+            background-color: #343a40; /* Dark background for the collapsed menu */
+            padding: 15px;
+        }
+
+        .navbar-brand,
+        .navbar-nav .nav-link {
+            color: #fff !important;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ffc107 !important;
+        }
+
+        main {
+            flex: 1;
+            text-align: center;
+            padding-top: 70px;
+        }
+
+        .content-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .footer {
+            height: 100px;
+            background-color: #343a40;
+            color: #fff;
+            padding: 30px 0;
+            margin-top: auto;
+            width: 100%;
+            border-top: 2px solid #fff;
+        }
+
+        .fab {
+            font-size: 24px;
+            margin-right: 10px;
+            color: #fff;
+        }
+        .navbar-brand,
+    .navbar-nav .nav-link,
+    .footer {
+        animation: fadeIn 0.8s ease-out; /* Add this line for animation */
+    }
+
+    /* Keyframes for the fadeIn animation */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Sentiment Analysis</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/overview">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/feedback">Feedback</a>
+                    </li>
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="/team">Team</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="/contact">Contact</a>-->
+<!--                    </li>-->
+
+                     <li class="nav-item">
+                        <a class="nav-link" href="/index2">colleges</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/sentiment_reviews"> Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="/logout">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <div class="content-container">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h1 class="mb-4">Sentiment Analysis Result</h1>
+                    <p class="lead">College: {{ college }}</p>
+                    <p class="lead">Keyword: {{ keyword }}</p>
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="lead">Sentiment Analysis:</p>
+                            <div id="sentimentChartContainer">
+                                <canvas id="sentimentChart" class="img-fluid"></canvas>
+                            </div>
+                             <script>
+    var sentimentData = {
+        labels: ["Positive", "Negative", "Neutral"],
+        datasets: [{
+            data: [{{ positive_count }}, {{ negative_count }}, {{ neutral_count }}],
+            backgroundColor: ["#28a745", "#dc3545", "#007bff"]
+        }]
+    };
+
+    var sentimentChartOptions = {
+        animation: {
+            animateRotate: true,
+            animateScale: true
+        },
+        responsive: true,
+        maintainAspectRatio: false,
+        legend: {
+            position: 'bottom'
+        },
+        tooltips: {
+            enabled: true,
+            callbacks: {
+                label: function (tooltipItem, data) {
+                    var dataset = data.datasets[tooltipItem.datasetIndex];
+                    var meta = dataset._meta[Object.keys(dataset._meta)[0]];
+                    var total = meta.total;
+                    var currentValue = dataset.data[tooltipItem.index];
+                    var percentage = parseFloat((currentValue / total * 100).toFixed(1));
+                    return percentage + '%';
+                },
+                title: function (tooltipItem, data) {
+                    return data.labels[tooltipItem[0].index];
+                }
+            }
+        }
+    };
+
+    var ctx = document.getElementById('sentimentChart').getContext('2d');
+    var sentimentChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: sentimentData,
+        options: sentimentChartOptions
+    });
+                        </script>
+
+                        </div>
+                        <div class="col-md-6">
+                            <p class="lead">Review Statistics:</p>
+                            <ul class="list-group">
+                                <li class="list-group-item">Review Count: {{ review_count }}</li>
+                                <li class="list-group-item">Positive Count: {{ positive_count }}</li>
+                                <li class="list-group-item">Negative Count: {{ negative_count }}</li>
+                                <li class="list-group-item">Neutral Count: {{ neutral_count }}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Engineering College Sentiment Analysis</p>
+            <p>Follow us on social media:
+                <a href="https://twitter.com" class="fab fa-twitter"></a>
+                <a href="https://www.facebook.com" class="fab fa-facebook-f"></a>
+                <a href="https://www.linkedin.com" class="fab fa-linkedin-in"></a>
+                <a href="https://www.instagram.com/anpatil2621" class="fab fa-instagram"></a>
+                <a href="https://github.com/Anpatil1" class="fab fa-github"></a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var navbarToggler = document.querySelector('.navbar-toggler');
+            var navbarCollapse = document.querySelector('.navbar-collapse');
+
+            if (navbarToggler && navbarCollapse) {
+                navbarToggler.addEventListener('click', function () {
+                    if (navbarCollapse.classList.contains('show')) {
+                        navbarCollapse.classList.remove('show');
+                    } else {
+                        navbarCollapse.classList.add('show');
+                    }
+                });
+            }
+
+            var notificationShown = sessionStorage.getItem('notificationShown');
+
+            if (!notificationShown) {
+                setTimeout(function () {
+                    Swal.fire({
+                        title: 'Feedback',
+                        text: 'Give Feedback',
+                        icon: 'info',
+                        showCloseButton: true,
+                        showConfirmButton: false,
+                        timer: 5000,
+                        onClose: function () {
+                            window.location.href = "/feedback";
+                        }
+                    });
+
+                    sessionStorage.setItem('notificationShown', 'true');
+                }, 2000);
+            }
+        });
+    </script>
+</body>
+
+</html>
