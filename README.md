@@ -51,6 +51,10 @@ This project is a Flask web application designed to collect, analyze, and visual
 
 
 ## Screenshots
+### Welcome Page
+
+![Welcome Page](static/overview_page.png)
+
 ### Home Page
 
 ![Home Page](static/Home_Page.png)
