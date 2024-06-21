@@ -74,30 +74,6 @@ This project is a Flask web application designed to collect, analyze, and visual
 ### User Authentication
 ![SignUp Page](static/SignUp_page.png)
 
-## Project Structure
-.
-├── app.py                      # Main Flask application file
-├── forms.py                    # WTForms definitions for handling form validation
-├── requirements.txt            # List of dependencies for the project
-├── templates                   # Directory containing HTML templates
-│   ├── index.html
-│   ├── feedback.html
-│   ├── result.html
-│   ├── login.html
-│   ├── signup.html
-│   ├── forgot_password.html
-│   ├── reset_password.html
-│   ├── error.html
-│   └── reviews.html
-├── static                      # Directory containing static files like CSS, JavaScript, images
-│   ├── css
-│   └── js
-├── svm_model.pkl               # Pre-trained SVM model for sentiment analysis
-├── lr_model.pkl                # Pre-trained Logistic Regression model for sentiment analysis
-├── vectorizer.pkl              # CountVectorizer used for feature extraction
-└── sentiment_result.csv        # Dataset used for sentiment analysis
-
-
 
 ## Usage
 
