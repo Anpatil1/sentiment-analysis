@@ -53,19 +53,22 @@ This project is a Flask web application designed to collect, analyze, and visual
 ## Screenshots
 ### Home Page
 
-![Home Page](static/screenshots/home_page.png)
+![Home Page](static/home_page.png)
 
 ### Feedback Form
 
-![Feedback Form](static/screenshots/feedback_form.png)
+![Feedback Form](static/feedback_form.png)
 
 ### Sentiment Analysis Results
 
-![Sentiment Analysis Results](static/screenshots/sentiment_results.png)
+![Sentiment Analysis Results](static/sentiment_results.png)
 
 ### User Authentication
 
-![Login Page](static/screenshots/login_page.png)
+![Login Page](static/login_page.png)
+
+### User Authentication
+![SignUp Page](static/SignUp_page.png)
 
 ## Project Structure
 .
