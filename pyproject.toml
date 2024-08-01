@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "college-sentiment-analysis"
+version = "0.1.0"
+description = "A Flask web application to collect, analyze, and visualize sentiment feedback about different colleges."
+authors = ["Avadhut Nangare-Patil <prianp.test@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.3.3"
+flask-mail = "^0.9.1"
+flask-wtf = "^1.1.1"
+werkzeug = "^2.3.4"
+pandas = "^2.1.0"
+matplotlib = "^3.7.1"
+scikit-learn = "^1.2.2"
+#sqlite = "^3.41.2"  # SQLite is typically included with Python, but you can specify if needed
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.3.2"  # Add any development dependencies here
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
